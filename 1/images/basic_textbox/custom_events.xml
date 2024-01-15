@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><events>
+	<event>
+		<name>onCloseObject</name>
+		<label>on Close Object</label>
+		<group>Object - custom</group>
+	</event>
+	<event>
+		<name>onRefresh</name>
+		<label>on Text Refreshed</label>
+		<group>Object - custom</group>
+	</event>
+	<event>
+		<name>onAddText</name>
+		<label>on Text Added</label>
+		<group>Object - custom</group>
+	</event>
+	<event>
+		<name>onReset</name>
+		<label>on Reset Text</label>
+		<group>Object - custom</group>
+	</event>
+	<event>
+		<name>onTypeWriterEnd</name>
+		<label>on TypeWriter End</label>
+		<group>Object - custom</group>
+	</event>
+	<event>
+		<name>onChangeState</name>
+		<label>on State Changed</label>
+		<group>Object - custom</group>
+	</event>
+</events>

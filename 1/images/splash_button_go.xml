@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+'*	splash_button_go.xml
+'*	Copyright (c) Websoft Ltd.  All rights reserved.
+--><params>
+	<object>
+		<label>Title Slide Button</label>
+		<width>200</width>
+		<height>50</height>
+		<description>Title Slide Button (limited capabilities and scope)</description>
+		<version>3</version>
+		<state_extension>false</state_extension>
+	</object>
+	<page name="Main" w="320" h="274">
+		<param type="label" id="lab_btn_text" text="Text" x="10" y="10" w="120" h="13"/>
+		<param type="edit" id="btn_text" text="" def="START MODULE" x="130" y="8" w="180" h="13"/>
+		<param type="label" id="lab_action" text="Action" def="" x="10" y="26" w="120" h="13"/>
+		<param type="select" id="action" text="" def="go" x="130" y="24" w="180" h="13">
+			<items>
+				<item id="go" label="Start Module">
+					<events>
+						<event name="selendok" target="lab_objectid" action="disable"/>
+						<event name="selendok" target="objectid" action="disable"/>
+					</events>
+				</item>
+				<item id="desc" label="Open Description">
+					<events>
+						<event name="selendok" target="lab_objectid" action="enable"/>
+						<event name="selendok" target="objectid" action="enable"/>
+					</events>
+				</item>
+			</items>
+		</param>
+		<param type="label" id="lab_objectid" text="Object" def="" x="10" y="42" w="120" h="13"/>
+		<param type="objectid" id="objectid" text="" def="" x="130" y="40" w="163" h="13"/>
+	</page>
+	<page name="Display" w="320" h="274">
+		<param type="label" id="lab_btn_type" text="Type" def="" x="10" y="10" w="120" h="13"/>
+		<param type="select" id="btn_type" text="" def="html" x="130" y="8" w="180" h="13">
+			<items>
+				<item id="html" label="Configurable button">
+					<events>
+						<event name="selendok" target="fs_image" action="hide"/>
+						<event name="selendok" target="fs_html" action="show"/>
+					</events>
+				</item>
+				<item id="image" label="Image set">
+					<events>
+						<event name="selendok" target="fs_image" action="show"/>
+						<event name="selendok" target="fs_html" action="hide"/>
+					</events>
+				</item>
+			</items>
+		</param>
+
+		<param type="fieldset" id="fs_image">
+			<param type="label" id="lab_n1_img" text="Idle" x="10" y="26" w="120" h="13"/>
+			<param type="file" id="n1_img" text="" def="" x="130" y="24" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+			<param type="label" id="lab_n2_img" text="Mouse over" x="10" y="42" w="120" h="13"/>
+			<param type="file" id="n2_img" text="" def="" x="130" y="40" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+		</param>
+		<param type="fieldset" id="fs_html">
+			<param type="label" id="lab_content" text="Content" x="10" y="26" w="120" h="13"/>
+			<param type="select" id="content" text="" def="text" x="130" y="24" w="120" h="13">
+				<items>
+					<item id="image" label="Image">
+						<events>
+							<event name="selendok" target="fs_bg_img" action="enable"/>
+							<event name="selendok" target="fs_text" action="disable"/>
+						</events>
+					</item>
+					<item id="text" label="Text">
+						<events>
+							<event name="selendok" target="fs_bg_img" action="disable"/>
+							<event name="selendok" target="fs_text" action="enable"/>
+						</events>
+					</item>
+					<item id="textimage" label="Image and text">
+						<events>
+							<event name="selendok" target="fs_bg_img" action="enable"/>
+							<event name="selendok" target="fs_text" action="enable"/>
+						</events>
+					</item>
+				</items>
+			</param>
+
+			<param type="fieldset" id="fs_bg_img">
+				<param type="label" id="lab_bg_img_1" text="Idle" x="10" y="42" w="120" h="13"/>
+				<param type="file" id="bg_img_1" text="" def="" x="130" y="40" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+				<param type="label" id="lab_bg_img_2" text="Mouse over" x="10" y="58" w="120" h="13"/>
+				<param type="file" id="bg_img_2" text="" def="" x="130" y="56" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+				<param type="label" id="lab_bg_position" text="Image position" def="" x="10" y="74" w="120" h="13"/>
+				<param type="select" id="bg_position" text="" def="center" x="130" y="72" w="120" h="13">
+					<items>
+						<item id="center" label="Center"/>
+						<item id="left" label="Left"/>
+						<item id="right" label="Right"/>
+					</items>
+				</param>
+			</param>
+
+			<param type="label" id="lab_bg_type" text="Fill" x="10" y="90" w="120" h="13"/>
+			<param type="select" id="bg_type" text="" def="auto" x="130" y="88" w="180" h="13">
+				<items>
+					<item id="transparent" label="Transparent">
+						<events>
+							<event name="selendok" target="bg_color" action="disable"/>
+							<event name="selendok" target="gradient_color" action="disable"/>
+							<event name="selendok" target="lab_gradient_color" action="disable"/>
+							<event name="selendok" target="bg_color_off" action="disable"/>
+							<event name="selendok" target="gradient_color_off" action="disable"/>
+						</events>
+					</item>
+					<item id="solid" label="Solid">
+						<events>
+							<event name="selendok" target="bg_color" action="enable"/>
+							<event name="selendok" target="gradient_color" action="disable"/>
+							<event name="selendok" target="lab_gradient_color" action="disable"/>
+							<event name="selendok" target="bg_color_off" action="enable"/>
+							<event name="selendok" target="gradient_color_off" action="disable"/>
+						</events>
+					</item>
+					<item id="auto" label="Autogradient">
+						<events>
+							<event name="selendok" target="bg_color" action="enable"/>
+							<event name="selendok" target="gradient_color" action="disable"/>
+							<event name="selendok" target="lab_gradient_color" action="disable"/>
+							<event name="selendok" target="bg_color_off" action="enable"/>
+							<event name="selendok" target="gradient_color_off" action="disable"/>
+						</events>
+					</item>
+					<item id="custom" label="Custom">
+						<events>
+							<event name="selendok" target="bg_color" action="enable"/>
+							<event name="selendok" target="gradient_color" action="enable"/>
+							<event name="selendok" target="lab_gradient_color" action="enable"/>
+							<event name="selendok" target="bg_color_off" action="enable"/>
+							<event name="selendok" target="gradient_color_off" action="enable"/>
+						</events>
+					</item>
+				</items>
+			</param>
+			<param type="color" id="bg_color" text="" def="#0080C0" x="130" y="104" w="40" h="13"/>
+			<param type="color" id="gradient_color" text="" def="#A6E1FF" x="190" y="104" w="40" h="13"/>
+
+			<param type="label" id="lab_border" text="Border" x="10" y="122" w="120" h="13"/>
+			<param type="select" id="border_style" text="" def="solid" x="130" y="120" w="118" h="13">
+				<items>
+					<item id="none" label="None">
+						<events>
+							<event name="selendok" target="border_color" action="disable"/>
+							<event name="selendok" target="border_width" action="disable"/>
+							<event name="selendok" target="lab_border_width_px" action="disable"/>
+						</events>
+					</item>
+					<item id="solid" label="Solid">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="dotted" label="Dotted">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="dashed" label="Dashed">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="double" label="Double">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="ridge" label="Ridge">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="groove" label="Groove">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="inset" label="Inset">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="outset" label="Outset">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+				</items>
+			</param>
+			<param type="color" id="border_color" text="" def="#004080" x="250" y="120" w="40" h="13"/>
+			<param type="label" id="lab_border_radius" text="Width, radius" x="10" y="138" w="120" h="13"/>
+			<param type="spinner" id="border_width" text="" def="1" x="130" y="136" w="32" h="13" min="0" max="49"/>
+			<param type="label" id="lab_border_width_px" text="px" x="165" y="138" w="20" h="13"/>
+			<param type="spinner" id="border_radius" text="" def="5" x="190" y="136" w="32" h="13" min="0" max="49"/>
+			<param type="label" id="lab_border_radius_px" text="px" x="225" y="138" w="30" h="13"/>
+
+			<param type="label" id="lab_shadow_strength" text="Shadow" def="" x="10" y="154" w="120" h="13"/>
+			<param type="select" id="shadow_strength" text="" def="normal" x="130" y="152" w="120" h="13">
+				<items>
+					<item id="none" label="None"/>
+					<item id="extralight" label="Extra light"/>
+					<item id="light" label="Light"/>
+					<item id="normal" label="Normal"/>
+					<item id="dark" label="Intense"/>
+					<item id="extradark" label="Very intense"/>
+				</items>
+			</param>
+
+			<param type="fieldset" id="fs_text">
+
+				<param type="line" id="LINE_font_1" text="" def="" x="5" y="170" w="310" h="94"/>
+				<param type="line" id="LINE_font_2" text="" def="" x="5" y="186" w="310" h="78"/>
+
+				<param type="label" id="lab_font" text="Font" x="15" y="174" w="120" h="11"/>
+				<param type="select" id="font" text="" def="robotomedium" x="15" y="194" w="113" h="13">
+					<items>
+						<item id="Arial" label="Arial">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="ArialBlack" label="Arial Black">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="ArialNarrow" label="Arial Narrow">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="ComicSansMS" label="Comic Sans MS">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="CourierNew" label="Courier New">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Georgia" label="Georgia">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Impact" label="Impact">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="LucidaConsole" label="Lucida Console">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="LucidaSansUnicode" label="Lucida Sans Unicode">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Palatino" label="Palatino">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Tahoma" label="Tahoma">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Times" label="Times New Roman">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="TrebuchetMS" label="Trebuchet MS">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Verdana" label="Verdana">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="clear_sans_lightregular" label="WF Clear Sans Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="clear_sans_mediumregular" label="WF Clear Sans Medium">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="clear_sansregular" label="WF Clear Sans Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="clear_sans_thinregular" label="WF Clear Sans Thin">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="droid_sans_monoregular" label="WF Droid Sans Mono">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="droid_sansregular" label="WF Droid Sans Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="droid_serifregular" label="WF Droid Serif Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Fira_Mono" label="WF Fira Mono">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Fira_Sans" label="WF Fira Sans">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="FiraSansLight" label="WF Fira Sans Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="FiraSansMedium" label="WF Fira Sans Medium">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Fregat_Sans" label="WF Fregat Sans">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="Lato_Sans" label="WF Lato Sans">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="LatoSansLight" label="WF Lato Sans Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="nerisblack" label="WF Neris Black">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="nerislight" label="WF Neris Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="nerissemibold" label="WF Neris SemiBold">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="neristhin" label="WF Neris Thin">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="noto_sansregular" label="WF Noto Sans Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="noto_serifregular" label="WF Noto Serif Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="open_sanscondensed_light" label="WF Open Sans Condensed Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="open_sansextrabold" label="WF Open Sans Extra Bold">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="open_sanslight" label="WF Open Sans Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="open_sansregular" label="WF Open Sans Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="open_sanssemibold" label="WF Open Sans SemiBold">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="permiansanstypefaceregular" label="WF Permian Sans Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="permianseriftypefaceregular" label="WF Permian Serif Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="permianslabseriftypefaceRg" label="WF Permian Slab Serif Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="robotoblack" label="WF Roboto Black">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="roboto_condensedregular" label="WF Roboto Condensed">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="roboto_condensedlight" label="WF Roboto Condensed Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="robotolight" label="WF Roboto Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="robotomedium" label="WF Roboto Medium">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="robotoregular" label="WF Roboto Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="robotothin" label="WF Roboto Thin">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="roboto_slablight" label="WF Roboto Slab Light">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="roboto_slabregular" label="WF Roboto Slab Regular">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="roboto_slabthin" label="WF Roboto Slab Thin">
+							<events>
+								<event name="selendok" target="font_custom" action="disable"/>
+							</events>
+						</item>
+						<item id="custom" label="Custom">
+							<events>
+								<event name="selendok" target="font_custom" action="enable"/>
+							</events>
+						</item>
+					</items>
+				</param>
+				<param type="edit" id="font_custom" text="" def="" x="130" y="194" w="175" h="13"/>
+
+				<param type="label" id="lab_font_color" text="Color" x="10" y="212" w="120" h="13"/>
+				<param type="color" id="font_color" text="" def="#004080" x="130" y="210" w="40" h="13"/>
+
+				<param type="label" id="lab_font_style" text="Style, size" def="" x="15" y="228" w="115" h="11"/>
+				<param type="select" id="font_style" text="" def="normal" x="130" y="226" w="118" h="13">
+					<items>
+						<item id="normal" label="Normal"/>
+						<item id="bold" label="Bold"/>
+						<item id="italic" label="Italic"/>
+						<item id="bolditalic" label="Bold italic"/>
+					</items>
+				</param>
+				<param type="spinner" id="font_size" text="" def="12" x="250" y="226" w="32" h="13" min="1" max="100"/>
+				<param type="label" id="lab_font_size2" text="px" x="285" y="228" w="25" h="11"/>
+
+				<param type="label" id="lab_text_shadow_strength" text="Shadow" def="" x="15" y="244" w="115" h="11"/>
+				<param type="select" id="text_shadow_strength" text="" def="normal" x="130" y="242" w="118" h="13">
+					<items>
+						<item id="none" label="None">
+							<events>
+								<event name="selendok" target="text_shadow_color" action="disable"/>
+							</events>
+						</item>
+						<item id="extralight" label="Extra light">
+							<events>
+								<event name="selendok" target="text_shadow_color" action="enable"/>
+							</events>
+						</item>
+						<item id="light" label="Light">
+							<events>
+								<event name="selendok" target="text_shadow_color" action="enable"/>
+							</events>
+						</item>
+						<item id="normal" label="Normal">
+							<events>
+								<event name="selendok" target="text_shadow_color" action="enable"/>
+							</events>
+						</item>
+						<item id="dark" label="Intense">
+							<events>
+								<event name="selendok" target="text_shadow_color" action="enable"/>
+							</events>
+						</item>
+						<item id="extradark" label="Very intense">
+							<events>
+								<event name="selendok" target="text_shadow_color" action="enable"/>
+							</events>
+						</item>
+					</items>
+				</param>
+				<param type="color" id="text_shadow_color" text="" def="#FFFFFF" x="250" y="242" w="40" h="13"/>
+
+			</param>
+
+		</param>
+    </page>
+</params>

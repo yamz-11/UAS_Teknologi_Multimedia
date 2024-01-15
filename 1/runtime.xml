@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Presentation file, saved 1/15/2024 10:30:53 AM using CourseLab 200726 -->
+<module>
+<runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
+<groups>
+</groups>
+<slides>
+<slide id="SLIDE_1" expanded="yes" sid="3" masterid="SLIDE_MASTER" advance="" transition="" durout="" name="Untitled" indent="0">
+<frames>
+<frame id="FRAME_5" expanded="yes" dur="0" infinite="0">
+<timeline>
+</timeline>
+</frame>
+</frames>
+</slide>
+<slide id="SLIDE_6" expanded="yes" sid="3" masterid="SLIDE_4" advance="" transition="" durout="" name="Untitled" indent="0">
+<frames>
+<frame id="FRAME_12" expanded="yes" dur="0" infinite="0">
+<timeline>
+</timeline>
+</frame>
+</frames>
+</slide>
+<slide id="SLIDE_8" expanded="yes" sid="3" masterid="SLIDE_5" advance="" transition="" durout="" name="Untitled" indent="0">
+<frames>
+<frame id="FRAME_13" expanded="yes" dur="0" infinite="0">
+<timeline>
+</timeline>
+</frame>
+</frames>
+</slide>
+</slides>
+<masters>
+<slide id="SLIDE_MASTER" expanded="yes" sid="1">
+<frames>
+<frame id="FRAME_4" expanded="yes" dur="0" infinite="0">
+<object id="IMG_7" expanded="yes" x="308" y="811" w="111" h="111" z="0" display="frame" begin="0" preload="images/radio-microphone-14635.png">
+<data>
+<![CDATA[<img src="images/radio-microphone-14635.png" style="width: 111px; height: 111px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_7_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_7_1" event="onclick" type="link">
+<JAVASCRIPT javascript="micoff();">
+</JAVASCRIPT>
+<DISPLAY pid="IMG_7" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_8" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+</RESPONSE>
+</object>
+<object id="IMG_8" expanded="yes" x="308" y="811" w="111" h="111" z="1" display="frame" begin="0" preload="images/microphone-sound-off-14636.png">
+<data>
+<![CDATA[<img src="images/microphone-sound-off-14636.png" style="width: 111px; height: 111px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_8_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_8_1" event="onclick" type="link">
+<JAVASCRIPT javascript="micon();">
+</JAVASCRIPT>
+<DISPLAY pid="IMG_7" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_8" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+</RESPONSE>
+</object>
+<object id="OBJ_3" expanded="yes" x="80" y="498" w="559" h="240" z="2" display="frame" begin="0" type="basic_textbox">
+<data>
+<![CDATA[<div class="cl-wrapper" style=""><div class="cl-container cl-theme-light unselectable" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div></div>]]>
+</data>
+</object>
+<object id="IMG_9" expanded="yes" x="0" y="186" w="717" h="180" z="3" display="frame" begin="0" preload="images/a82951a1270b54cfc8afe62433f87117.jpg">
+<data>
+<![CDATA[<img src="images/a82951a1270b54cfc8afe62433f87117.jpg" style="width: 717px; height: 180px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="IMG_25" expanded="yes" x="528" y="1014" w="104" h="123" z="4" display="frame" begin="0" preload="images/yyy - Copy.jpg">
+<data>
+<![CDATA[<img src="images/yyy - Copy.jpg" style="width: 104px; height: 123px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_25_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_25_1" event="onclick" type="link">
+<GOTO option="3" fs_frame="" pid="">
+</GOTO>
+</RESPONSE>
+</object>
+<timeline>
+</timeline>
+</frame>
+<frame id="FRAME_6" expanded="yes" dur="0" infinite="0">
+<timeline>
+</timeline>
+</frame>
+</frames>
+</slide>
+<slide id="SLIDE_4" expanded="yes" sid="1">
+<frames>
+<frame id="FRAME_7" expanded="yes" dur="0" infinite="0">
+<object id="IMG_12" expanded="yes" x="308" y="811" w="111" h="111" z="0" display="frame" begin="0" preload="images/radio-microphone-14635.png">
+<data>
+<![CDATA[<img src="images/radio-microphone-14635.png" style="width: 111px; height: 111px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_12_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_12_1" event="onclick" type="link">
+<JAVASCRIPT javascript="micoff();">
+</JAVASCRIPT>
+<DISPLAY pid="IMG_12" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_13" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+</RESPONSE>
+</object>
+<object id="IMG_13" expanded="yes" x="308" y="811" w="111" h="111" z="1" display="frame" begin="0" preload="images/microphone-sound-off-14636.png">
+<data>
+<![CDATA[<img src="images/microphone-sound-off-14636.png" style="width: 111px; height: 111px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_13_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_13_1" event="onclick" type="link">
+<JAVASCRIPT javascript="micon();">
+</JAVASCRIPT>
+<DISPLAY pid="IMG_12" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_13" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+</RESPONSE>
+</object>
+<object id="OBJ_4" expanded="yes" x="80" y="498" w="559" h="240" z="2" display="frame" begin="0" type="basic_textbox">
+<data>
+<![CDATA[<div class="cl-wrapper" style=""><div class="cl-container cl-theme-light unselectable" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div></div>]]>
+</data>
+</object>
+<object id="IMG_22" expanded="yes" x="79" y="161" w="547" h="203" z="3" display="frame" begin="0" preload="images/Screenshot 2024-01-15 094339.png">
+<data>
+<![CDATA[<img src="images/Screenshot 2024-01-15 094339.png" style="width: 547px; height: 203px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="IMG_23" expanded="yes" x="557" y="995" w="104" h="123" z="4" display="frame" begin="0" preload="images/yyy - Copy.jpg">
+<data>
+<![CDATA[<img src="images/yyy - Copy.jpg" style="width: 104px; height: 123px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_23_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_23_1" event="onclick" type="link">
+<GOTO option="3" fs_frame="" pid="">
+</GOTO>
+</RESPONSE>
+</object>
+<object id="IMG_19" expanded="yes" x="87" y="997" w="103" h="113" z="5" display="frame" begin="0" preload="images/yyy.jpg">
+<data>
+<![CDATA[<img src="images/yyy.jpg" style="width: 103px; height: 113px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_19_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_19_1" event="onclick" type="link">
+<GOTO option="0" fs_frame="" pid="5">
+</GOTO>
+</RESPONSE>
+</object>
+<timeline>
+</timeline>
+</frame>
+<frame id="FRAME_8" expanded="yes" dur="0" infinite="0">
+<timeline>
+</timeline>
+</frame>
+</frames>
+</slide>
+<slide id="SLIDE_5" expanded="yes" sid="1">
+<frames>
+<frame id="FRAME_10" expanded="yes" dur="0" infinite="0">
+<object id="IMG_17" expanded="yes" x="308" y="811" w="111" h="111" z="0" display="frame" begin="0" preload="images/radio-microphone-14635.png">
+<data>
+<![CDATA[<img src="images/radio-microphone-14635.png" style="width: 111px; height: 111px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_17_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_17_1" event="onclick" type="link">
+<JAVASCRIPT javascript="micoff();">
+</JAVASCRIPT>
+<DISPLAY pid="IMG_17" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_18" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+</RESPONSE>
+</object>
+<object id="IMG_18" expanded="yes" x="308" y="811" w="111" h="111" z="1" display="frame" begin="0" preload="images/microphone-sound-off-14636.png">
+<data>
+<![CDATA[<img src="images/microphone-sound-off-14636.png" style="width: 111px; height: 111px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_18_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_18_1" event="onclick" type="link">
+<JAVASCRIPT javascript="micon();">
+</JAVASCRIPT>
+<DISPLAY pid="IMG_17" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_18" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+</RESPONSE>
+</object>
+<object id="OBJ_5" expanded="yes" x="80" y="498" w="559" h="240" z="2" display="frame" begin="0" type="basic_textbox">
+<data>
+<![CDATA[<div class="cl-wrapper" style=""><div class="cl-container cl-theme-light unselectable" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div></div>]]>
+</data>
+</object>
+<object id="IMG_20" expanded="yes" x="111" y="179" w="467" h="180" z="3" display="frame" begin="0" preload="images/k.png">
+<data>
+<![CDATA[<img src="images/k.png" style="width: 467px; height: 180px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="IMG_24" expanded="yes" x="62" y="1009" w="103" h="113" z="4" display="frame" begin="0" preload="images/yyy.jpg">
+<data>
+<![CDATA[<img src="images/yyy.jpg" style="width: 103px; height: 113px;border-width: 0px;cursor:pointer;" onclick="CL.Resp.Process({ respid: 'IMG_24_1', evt: ((typeof e === 'undefined') ? ((typeof event === 'undefined') ? window.event : event) : e) });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_24_1" event="onclick" type="link">
+<GOTO option="4" fs_frame="" pid="">
+</GOTO>
+</RESPONSE>
+</object>
+<timeline>
+</timeline>
+</frame>
+<frame id="FRAME_11" expanded="yes" dur="0" infinite="0">
+<timeline>
+</timeline>
+</frame>
+</frames>
+</slide>
+</masters>
+<methods>
+<method type="basic_textbox" name="Constructor">
+<![CDATA[function Constructor(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv = $(oCurObj.div);
+				var bDefer = false; 
+				switch(oCurObj.display)
+				{
+					case "none":
+					{
+						bDefer = true;
+						CL.Event.Subscribe({ aList: [ { sId: argobj.pid, sEvtName: "EVENT_OBJECT_SHOW" } ] });
+						break;
+					}
+					case "time":
+					case "frame":
+					case "slide":
+					{
+						if(oCurObj.iBegin!=null && +oCurObj.iBegin!=0)
+						{
+							bDefer = true;
+							CL.Event.Subscribe({ aList: [ { sId: argobj.pid, sEvtName: "EVENT_OBJECT_SHOW" } ] });
+						}
+						break;
+					}
+				}
+				if(oCurObj.jxParams.children("hide_on_click").text()=="yes")
+				{
+					jCurObjDiv.find(".cl-btn-close-object").on("click", function (e) { CLO[argobj.pid].CallMethod({ sMethod: "UIEvent", oMethodArgs: { evt: e, elem: this } }); });
+				}
+				oCurObj.data =
+				{
+					bCreated: true,
+					bTypeWriter: (oCurObj.jxParams.children("typewriter").text()=="yes")
+				};
+				if(oCurObj.data.bTypeWriter)
+				{
+					var sSpeed = oCurObj.jxParams.children("typewriter_speed").text();
+					var iSpeed = (sSpeed=="") ? 10 : parseInt(sSpeed, 10);
+					if(isNaN(iSpeed)) iSpeed = 10;
+					oCurObj.data.iDelay = Math.round(1000/iSpeed);
+				}
+				var sHTML;
+				for(var sState in oCurObj.oStates)
+				{
+					oCurObj.oStates[sState].sText = (sState=="default") ? oCurObj.jxParams.children("text_main").text() : oCurObj.oStates[sState].jxParams.children("text_main").text();
+					sHTML = CL.Substitute.All({ sString: oCurObj.oStates[sState].sText });
+					jCurObjDiv.find("div[data-state='" + sState + "'] .cl-txt-box-cell").html( sHTML );
+				}
+				if(CL.bTouch)
+				{
+					oCurObj.data.jTextBox.on("touchmove", function(e) { e.stopPropagation() }).addClass("cl-touch-scroll");
+				}
+				if(!bDefer)
+				{
+					oCurObj.CallMethod({ sMethod: "Display" });
+				}
+				else
+				{
+					jCurObjDiv.find(".cl-container:first").hide();
+				}
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="HandleEvt">
+<![CDATA[function HandleEvt(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv = $(oCurObj.div);
+				if(oCurObj==null || jCurObjDiv==null) return false; 
+				switch(argobj.evt)
+				{
+					case "EVENT_OBJECT_SHOW":
+					{
+						if(!oCurObj.data.bCreated) return false;
+						oCurObj.CallMethod({ sMethod: "Display" });
+						break;
+					}
+				}
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="Display">
+<![CDATA[function Display(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv = $(oCurObj.div);
+				jCurObjDiv.find(".cl-container:first").show();
+				if(oCurObj.data.bTypeWriter)
+				{
+					oCurObj.CallMethod({ sMethod: "TypeWriter", oMethodArgs: { oElem: jCurObjDiv.find("div[data-state='default'] .cl-txt-box-cell"), iDelay: oCurObj.data.iDelay, iItem: 0 } });
+				}
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="TypeWriter">
+<![CDATA[function TypeWriter(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv = $(oCurObj.div);
+				var jElem = $(argobj.oElem); 
+				if(jElem.attr("data-wrapped")=="yes")
+				{
+					jElem.find(".cl-char").each(function () { $(this).contents().unwrap() });
+				}
+				jElem.attr({ "data-wrapped": "yes" }).html( CL.Common.WrapCharacters({ sHTML: jElem.html() }) );
+				oCurObj.CallMethod({ sMethod: "NextChar", oMethodArgs: { oElem: jElem, iDelay: oCurObj.data.iDelay, iItem: 0 } });
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="NextChar">
+<![CDATA[function NextChar(argobj)
+			{
+				if(argobj==null) return false;
+				if(argobj.pid==null || argobj.oElem==null || argobj.iDelay==null || argobj.iItem==null)
+				{
+					return false;
+				}
+				var oCurObj = CLO[argobj.pid];
+				if(oCurObj==null)
+				{
+					return false;
+				}
+				var jElem = $(argobj.oElem);
+				var jItem = jElem.find(".cl-char[data-i='" + argobj.iItem + "']");
+				if(jItem.length==0)
+				{
+					oCurObj.FireEvent({ sName: "onTypeWriterEnd" });
+					return false;
+				}
+				jItem.contents().unwrap();
+				oCurObj.iTimer = setTimeout(function () { oCurObj.CallMethod({ sMethod: "NextChar", oMethodArgs: { oElem: argobj.oElem, iDelay: argobj.iDelay, iItem: (argobj.iItem+1) } }); }, argobj.iDelay);
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="UIEvent">
+<![CDATA[function UIEvent(argobj)
+			{
+				if(argobj.evt==null) return false;
+				var jElem = $(argobj.elem);
+				switch(argobj.evt.type)
+				{
+					case "click":
+					{
+						CLO[argobj.pid].CallMethod({ sMethod: "Close" });
+						break;
+					}
+				}
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="Close">
+<![CDATA[function Close(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				if(oCurObj==null) return false; 
+				oCurObj.Hide();
+				oCurObj.FireEvent({ sName: "onCloseObject" });
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="RefreshText">
+<![CDATA[function RefreshText(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				if(oCurObj==null) return false; 
+				var jCurObjDiv = $(oCurObj.div);
+				var jState;
+				for(var sState in oCurObj.oStates)
+				{
+					jState = jCurObjDiv.find("div[data-state='" + sState + "']");
+					jState.find(".cl-txt-box-cell").html(  CL.Substitute.All({ sString: oCurObj.oStates[sState].sText }) );
+				}
+				oCurObj.FireEvent({ sName: "onRefresh" });
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="ResetText">
+<![CDATA[function ResetText(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				if(oCurObj==null) return false; 
+				var jCurObjDiv = $(oCurObj.div);
+				var jState;
+				for(var sState in oCurObj.oStates)
+				{
+					oCurObj.oStates[sState].sText = (sState=="default") ? oCurObj.jxParams.children("text_main").text() : oCurObj.oStates[sState].jxParams.children("text_main").text();
+					jState = jCurObjDiv.find("div[data-state='" + sState + "']");
+					jState.find(".cl-txt-box-cell").html(  CL.Substitute.All({ sString: oCurObj.oStates[sState].sText }) );
+				}
+				oCurObj.FireEvent({ sName: "onReset" });
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="AddText">
+<![CDATA[function AddText(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv = $(oCurObj.div);
+				var jState;
+				var sText;
+				for(var sState in oCurObj.oStates)
+				{
+					sText = CL.Common.AddText({ sHTML: oCurObj.oStates[sState].sText, sText: argobj.value, sWhere: argobj.where, sHow: argobj.how });
+					oCurObj.oStates[sState].sText = sText;
+					jCurObjDiv.find("div[data-state='" + sState + "'] .cl-txt-box-cell").html(  CL.Substitute.All({ sString: oCurObj.oStates[sState].sText }) );
+				}
+				oCurObj.FireEvent({ sName: "onAddText" });
+				return true;
+			}]]>
+</method>
+<method type="basic_textbox" name="GetProperty">
+<![CDATA[function GetProperty(argobj)
+			{
+				if(argobj.pid==null || argobj.property==null) return "";
+				if(CLO[argobj.pid]==null) return "";
+				switch(argobj.property.toLowerCase())
+				{
+					case "state":
+					{
+						return oCurObj.sCurrentState;
+					}
+				}
+				return "";
+			}]]>
+</method>
+</methods>
+<params>
+<param objectid="EM3_TTL_BTN">
+<btn_text>START</btn_text>
+<btn_type>html</btn_type>
+<fs_image></fs_image>
+<n1_img></n1_img>
+<n2_img></n2_img>
+<fs_html></fs_html>
+<content>text</content>
+<fs_bg_img></fs_bg_img>
+<bg_img_1></bg_img_1>
+<bg_img_2></bg_img_2>
+<bg_position>center</bg_position>
+<bg_type>auto</bg_type>
+<bg_color>#0080C0</bg_color>
+<gradient_color>#A6E1FF</gradient_color>
+<border_style>solid</border_style>
+<border_color>#004080</border_color>
+<border_width>1</border_width>
+<border_radius>5</border_radius>
+<fs_text></fs_text>
+<font>robotomedium</font>
+<font_custom></font_custom>
+<font_style>normal</font_style>
+<font_color>#004080</font_color>
+<font_size>18</font_size>
+<text_shadow_color>#FFFFFF</text_shadow_color>
+<text_shadow_strength>normal</text_shadow_strength>
+<shadow_strength>normal</shadow_strength>
+<action>go</action>
+<objectid></objectid>
+</param>
+<param objectid="OBJ_3">
+<hidden.text_area_warning>Text area is too small</hidden.text_area_warning>
+<text_main><![CDATA[<span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span>]]></text_main>
+<theme>light</theme>
+<bg_color>#B9DCFF</bg_color>
+<border_color>#336699</border_color>
+<fs_profile_text></fs_profile_text>
+<stroke_weight>1</stroke_weight>
+<border_radius>10</border_radius>
+<gradient_angle>0</gradient_angle>
+<border_style>solid</border_style>
+<fs_profile_custom></fs_profile_custom>
+<gradient_color>#CEE0FF</gradient_color>
+<hide_on_click>no</hide_on_click>
+<close_title>Click to close</close_title>
+<size_to>container</size_to>
+<valign>top</valign>
+<overflow>auto</overflow>
+<shadow_strength>normal</shadow_strength>
+<text_padding>10</text_padding>
+<typewriter>no</typewriter>
+<typewriter_speed>5</typewriter_speed>
+</param>
+<param objectid="OBJ_4">
+<hidden.text_area_warning>Text area is too small</hidden.text_area_warning>
+<text_main><![CDATA[<span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span>]]></text_main>
+<theme>light</theme>
+<bg_color>#B9DCFF</bg_color>
+<border_color>#336699</border_color>
+<fs_profile_text></fs_profile_text>
+<stroke_weight>1</stroke_weight>
+<border_radius>10</border_radius>
+<gradient_angle>0</gradient_angle>
+<border_style>solid</border_style>
+<fs_profile_custom></fs_profile_custom>
+<gradient_color>#CEE0FF</gradient_color>
+<hide_on_click>no</hide_on_click>
+<close_title>Click to close</close_title>
+<size_to>container</size_to>
+<valign>top</valign>
+<overflow>auto</overflow>
+<shadow_strength>normal</shadow_strength>
+<text_padding>10</text_padding>
+<typewriter>no</typewriter>
+<typewriter_speed>5</typewriter_speed>
+</param>
+<param objectid="OBJ_5">
+<hidden.text_area_warning>Text area is too small</hidden.text_area_warning>
+<text_main><![CDATA[<span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span>]]></text_main>
+<theme>light</theme>
+<bg_color>#B9DCFF</bg_color>
+<border_color>#336699</border_color>
+<fs_profile_text></fs_profile_text>
+<stroke_weight>1</stroke_weight>
+<border_radius>10</border_radius>
+<gradient_angle>0</gradient_angle>
+<border_style>solid</border_style>
+<fs_profile_custom></fs_profile_custom>
+<gradient_color>#CEE0FF</gradient_color>
+<hide_on_click>no</hide_on_click>
+<close_title>Click to close</close_title>
+<size_to>container</size_to>
+<valign>top</valign>
+<overflow>auto</overflow>
+<shadow_strength>normal</shadow_strength>
+<text_padding>10</text_padding>
+<typewriter>no</typewriter>
+<typewriter_speed>5</typewriter_speed>
+</param>
+</params>
+<objectives>
+<objective module="yes" id="total" name="Main module objective" cs="i" ss="u" scoremax="100" scoremin="0"/>
+</objectives>
+<runtimechecks>
+</runtimechecks>
+</module>

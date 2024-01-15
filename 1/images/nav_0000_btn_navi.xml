@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+'*	nav_0000_btn_navi.xml
+'*	CourseLab 3
+'*	Copyright (c) Websoft Ltd., Russia.  All rights reserved.
+--><params>
+    <object>
+        <label>Navigation Button</label>
+        <width>100</width>
+        <height>50</height>
+        <description>Navigation Button</description>
+		<default_color_bg>bg_color</default_color_bg>
+		<default_color_border>border_color</default_color_border>
+		<state_extension>false</state_extension>
+    </object>
+    <page name="Main" w="320" h="220">
+		<param type="label" id="lab_role" text="Action" def="" x="10" y="10" w="120" h="13"/>
+		<param type="select" id="role" text="" def="nextslide" x="130" y="8" w="180" h="13">
+			<items>
+				<item id="thisslide" label="Replay slide">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="show"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="nextslide" label="Next slide">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="show"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="show"/>
+					</events>
+				</item>
+				<item id="prevslide" label="Previous slide">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="show"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="show"/>
+					</events>
+				</item>
+				<item id="firstslide" label="First slide">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="show"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="lastslide" label="Last slide">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="show"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="nextframe" label="Next frame">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="show"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="show"/>
+					</events>
+				</item>
+				<item id="prevframe" label="Previous frame">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="show"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="show"/>
+					</events>
+				</item>
+				<item id="firstframe" label="First frame">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="show"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="lastframe" label="Last frame">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="show"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="selectedslide" label="Selected slide">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="enable"/>
+						<event name="selendok" target="selectedslide" action="enable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="show"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="selectedframe" label="Selected frame">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="enable"/>
+						<event name="selendok" target="selectedframe" action="enable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="show"/>
+						<event name="selendok" target="fs_closemodule" action="hide"/>
+						<event name="selendok" target="nav_lock" action="show"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+				<item id="closemodule" label="Close module *">
+					<events>
+						<event name="selendok" target="lab_selectedslide" action="disable"/>
+						<event name="selendok" target="selectedslide" action="disable"/>
+						<event name="selendok" target="lab_selectedframe" action="disable"/>
+						<event name="selendok" target="selectedframe" action="disable"/>
+						<event name="selendok" target="fs_thisslide" action="hide"/>
+						<event name="selendok" target="fs_nextslide" action="hide"/>
+						<event name="selendok" target="fs_prevslide" action="hide"/>
+						<event name="selendok" target="fs_firstslide" action="hide"/>
+						<event name="selendok" target="fs_lastslide" action="hide"/>
+						<event name="selendok" target="fs_nextframe" action="hide"/>
+						<event name="selendok" target="fs_prevframe" action="hide"/>
+						<event name="selendok" target="fs_firstframe" action="hide"/>
+						<event name="selendok" target="fs_lastframe" action="hide"/>
+						<event name="selendok" target="fs_selectedslide" action="hide"/>
+						<event name="selendok" target="fs_selectedframe" action="hide"/>
+						<event name="selendok" target="fs_closemodule" action="show"/>
+						<event name="selendok" target="nav_lock" action="hide"/>
+						<event name="selendok" target="swipe" action="hide"/>
+					</events>
+				</item>
+			</items>
+		</param>
+		<param type="label" id="lab_selectedslide" text="Slide" def="" x="10" y="26" w="120" h="13"/>
+		<param type="slideid" id="selectedslide" text="" def="" x="130" y="24" w="163" h="13"/>
+		<param type="label" id="lab_selectedframe" text="Frame" def="" x="10" y="42" w="120" h="13"/>
+		<param type="subslideid" id="selectedframe" text="" def="" x="130" y="40" w="163" h="13"/>
+
+        <param type="label" id="lab_text" text="Text" x="10" y="58" w="120" h="13"/>
+        <param type="label" id="lab_alt_enabled" text="Tooltip for enabled" x="10" y="74" w="180" h="13"/>
+		<param type="label" id="lab_alt_disabled" text="Tooltip for disabled" x="10" y="90" w="180" h="13"/>
+
+		<param type="fieldset" id="fs_thisslide">
+			<param type="edit" id="text_thisslide" text="" def="REPLAY" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_thisslide" text="" def="Replay slide" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_thisslide" text="" def="Replay disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+		<param type="fieldset" id="fs_nextslide">
+			<param type="edit" id="text_nextslide" text="" def="NEXT" x="130" y="56" w="180" h="13" loc="." repeat="1"/>
+			<param type="edit" id="alt_enabled_nextslide" text="" def="Next slide" x="130" y="72" w="180" h="13" loc="." repeat="1"/>
+			<param type="edit" id="alt_disabled_nextslide" text="" def="Navigation disabled" x="130" y="88" w="180" h="13" loc="." repeat="1"/>
+		</param>
+		<param type="fieldset" id="fs_prevslide">
+			<param type="edit" id="text_prevslide" text="" def="PREV" x="130" y="56" w="180" h="13" loc="." repeat="1"/>
+			<param type="edit" id="alt_enabled_prevslide" text="" def="Previous slide" x="130" y="72" w="180" h="13" loc="." repeat="1"/>
+			<param type="edit" id="alt_disabled_prevslide" text="" def="Navigation disabled" x="130" y="88" w="180" h="13" loc="." repeat="1"/>
+ 		</param>
+		<param type="fieldset" id="fs_firstslide">
+			<param type="edit" id="text_firstslide" text="" def="BEGIN" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_firstslide" text="" def="First slide" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_firstslide" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+ 		</param>
+		<param type="fieldset" id="fs_lastslide">
+			<param type="edit" id="text_lastslide" text="" def="END" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_lastslide" text="" def="Last slide" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_lastslide" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+ 		</param>
+		<param type="fieldset" id="fs_nextframe">
+			<param type="edit" id="text_nextframe" text="" def="Next" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_nextframe" text="" def="Next frame" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_nextframe" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+		<param type="fieldset" id="fs_prevframe">
+			<param type="edit" id="text_prevframe" text="" def="Back" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_prevframe" text="" def="Previous frame" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_prevframe" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+		<param type="fieldset" id="fs_firstframe">
+			<param type="edit" id="text_firstframe" text="" def="Begin" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_firstframe" text="" def="First frame" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_firstframe" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+		<param type="fieldset" id="fs_lastframe">
+			<param type="edit" id="text_lastframe" text="" def="End" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_lastframe" text="" def="Last frame" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_lastframe" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+		<param type="fieldset" id="fs_selectedslide">
+			<param type="edit" id="text_selectedslide" text="" def="" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_selectedslide" text="" def="Go to slide" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_selectedslide" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+		<param type="fieldset" id="fs_selectedframe">
+			<param type="edit" id="text_selectedframe" text="" def="" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_selectedframe" text="" def="Go to frame" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_selectedframe" text="" def="Navigation disabled" x="130" y="88" w="180" h="13"/>
+		</param>
+ 		<param type="fieldset" id="fs_closemodule">
+			<param type="edit" id="text_closemodule" text="" def="CLOSE" x="130" y="56" w="180" h="13"/>
+			<param type="edit" id="alt_enabled_closemodule" text="" def="Close module" x="130" y="72" w="180" h="13"/>
+			<param type="edit" id="alt_disabled_closemodule" text="" def="" x="130" y="88" w="180" h="13"/>
+			<param type="check" id="display_closemodule_msg" text="Confirmation" def="no" x="10" y="104" w="120" h="13"/>
+			<param type="edit" id="closemodule_msg" text="" def="Module will be closed. Are you sure?" x="130" y="104" w="180" h="13"/>
+		</param>
+		<param type="check" id="nav_lock" text="Strict Navigation mode" def="yes" x="10" y="104" w="240" h="13"/>
+		<param type="check" id="swipe" text="Use swipe gestures" def="yes" x="10" y="120" w="240" h="13"/>
+
+	</page>
+	<page name="Display" w="320" h="220">
+
+		<param type="label" id="lab_btn_type" text="Type" def="" x="10" y="10" w="120" h="11"/>
+		<param type="select" id="btn_type" text="" def="html" x="130" y="8" w="120" h="13">
+			<items>
+				<item id="html" label="Configurable button">
+					<events>
+						<event name="selendok" target="fs_image" action="hide"/>
+						<event name="selendok" target="fs_html" action="show"/>
+					</events>
+				</item>
+				<item id="image" label="Image set">
+					<events>
+						<event name="selendok" target="fs_image" action="show"/>
+						<event name="selendok" target="fs_html" action="hide"/>
+					</events>
+				</item>
+			</items>
+		</param>
+
+		<param type="fieldset" id="fs_image">
+			<param type="label" id="lab_n1_img" text="Idle" x="10" y="26" w="120" h="11"/>
+			<param type="file" id="n1_img" text="" def="" x="130" y="24" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+			<param type="label" id="lab_n2_img" text="Mouse over" x="10" y="42" w="120" h="11"/>
+			<param type="file" id="n2_img" text="" def="" x="130" y="40" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+			<param type="label" id="lab_n3_img" text="Disabled" x="10" y="58" w="120" h="11"/>
+			<param type="file" id="n3_img" text="" def="" x="130" y="56" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+		</param>
+
+		<param type="fieldset" id="fs_html">
+
+			<param type="label" id="lab_bg_type" text="Fill type" x="10" y="26" w="120" h="13"/>
+			<param type="select" id="bg_type" text="" def="auto" x="130" y="24" w="120" h="13">
+				<items>
+					<item id="transparent" label="Transparent">
+						<events>
+							<event name="selendok" target="bg_color" action="disable"/>
+							<event name="selendok" target="gradient_color" action="disable"/>
+						</events>
+					</item>
+					<item id="solid" label="Solid">
+						<events>
+							<event name="selendok" target="bg_color" action="enable"/>
+							<event name="selendok" target="gradient_color" action="disable"/>
+						</events>
+					</item>
+					<item id="auto" label="Autogradient">
+						<events>
+							<event name="selendok" target="bg_color" action="enable"/>
+							<event name="selendok" target="gradient_color" action="disable"/>
+						</events>
+					</item>
+					<item id="custom" label="Custom">
+						<events>
+							<event name="selendok" target="bg_color" action="enable"/>
+							<event name="selendok" target="gradient_color" action="enable"/>
+						</events>
+					</item>
+				</items>
+			</param>
+
+
+
+			<param type="label" id="lab_btn_border" text="Border" x="10" y="42" w="120" h="11"/>
+			<param type="select" id="border_style" text="" def="solid" x="130" y="40" w="120" h="13">
+				<items>
+					<item id="none" label="None">
+						<events>
+							<event name="selendok" target="border_color" action="disable"/>
+							<event name="selendok" target="border_width" action="disable"/>
+							<event name="selendok" target="lab_border_width_px" action="disable"/>
+						</events>
+					</item>
+					<item id="solid" label="Solid">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="dotted" label="Dotted">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="dashed" label="Dashed">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="double" label="Double">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="ridge" label="Ridge">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="groove" label="Groove">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="inset" label="Inset">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+					<item id="outset" label="Outset">
+						<events>
+							<event name="selendok" target="border_color" action="enable"/>
+							<event name="selendok" target="border_width" action="enable"/>
+							<event name="selendok" target="lab_border_width_px" action="enable"/>
+						</events>
+					</item>
+				</items>
+			</param>
+
+
+			<param type="label" id="lab_border_radius" text="Width, radius" x="10" y="58" w="120" h="11"/>
+			<param type="spinner" id="border_width" text="" def="1" x="130" y="56" w="32" h="13" min="0" max="49"/>
+			<param type="label" id="lab_border_width_px" text="px" x="165" y="58" w="25" h="13"/>
+			<param type="spinner" id="border_radius" text="" def="5" x="190" y="56" w="32" h="13" min="0" max="49"/>
+			<param type="label" id="lab_border_radius_px" text="px" x="225" y="58" w="30" h="13"/>
+
+			<param type="label" id="lab_colors" text="Fill, gradient, border" x="10" y="74" w="120" h="11"/>
+			<param type="color" id="bg_color" text="" def="#0080C0" x="130" y="72" w="40" h="13"/>
+			<param type="color" id="gradient_color" text="" def="#A6E1FF" x="190" y="72" w="40" h="13"/>
+			<param type="color" id="border_color" text="" def="#004080" x="250" y="72" w="40" h="13"/>
+
+			<param type="label" id="lab_shadow_strength" text="Shadow" def="" x="10" y="90" w="120" h="13"/>
+			<param type="select" id="shadow_strength" text="" def="normal" x="130" y="88" w="120" h="13">
+				<items>
+					<item id="none" label="None"/>
+					<item id="extralight" label="Extra light"/>
+					<item id="light" label="Light"/>
+					<item id="normal" label="Normal"/>
+					<item id="dark" label="Intense"/>
+					<item id="extradark" label="Very intense"/>
+				</items>
+			</param>
+			<param type="label" id="lab_content" text="Content" x="10" y="106" w="120" h="13"/>
+			<param type="select" id="content" text="" def="text" x="130" y="104" w="120" h="13">
+				<items>
+					<item id="image" label="Image">
+						<events>
+							<event name="selendok" target="fs_bg_img" action="enable"/>
+							<event name="selendok" target="fs_text" action="disable"/>
+						</events>
+					</item>
+					<item id="text" label="Text">
+						<events>
+							<event name="selendok" target="fs_bg_img" action="disable"/>
+							<event name="selendok" target="fs_text" action="enable"/>
+						</events>
+					</item>
+					<item id="textimage" label="Image and text">
+						<events>
+							<event name="selendok" target="fs_bg_img" action="enable"/>
+							<event name="selendok" target="fs_text" action="enable"/>
+						</events>
+					</item>
+				</items>
+			</param>
+
+			<param type="fieldset" id="fs_bg_img">
+				<param type="label" id="lab_bg_img_1" text="Idle" x="10" y="122" w="120" h="13"/>
+				<param type="file" id="bg_img_1" text="" def="" x="130" y="120" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+				<param type="label" id="lab_bg_img_2" text="Mouse over" x="10" y="138" w="120" h="13"/>
+				<param type="file" id="bg_img_2" text="" def="" x="130" y="136" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+				<param type="label" id="lab_bg_img_3" text="Disabled" x="10" y="154" w="120" h="13"/>
+				<param type="file" id="bg_img_3" text="" def="" x="130" y="152" w="163" h="13" ext="Images (*.png;*.jpg;*.jpeg;*.gif)|*.png;*.jpg;*.jpeg;*.gif|PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|All files (*.*)|*.*|||"/>
+				<param type="label" id="lab_bg_position" text="Image position" def="" x="10" y="170" w="120" h="13"/>
+				<param type="select" id="bg_position" text="" def="center" x="130" y="168" w="120" h="13">
+					<items>
+						<item id="center" label="Center"/>
+						<item id="left" label="Left"/>
+						<item id="right" label="Right"/>
+					</items>
+				</param>
+			</param>
+
+			<param type="fieldset" id="fs_text">
+
+				<param type="label" id="lab_text_position" text="Text position" def="" x="10" y="186" w="120" h="11"/>
+				<param type="select" id="text_position" text="" def="center" x="130" y="184" w="120" h="13">
+					<items>
+						<item id="center" label="Center"/>
+						<item id="left" label="Left"/>
+						<item id="right" label="Right"/>
+					</items>
+				</param>
+				<param type="label" id="lab_text_margin" text="Padding left/right" def="" x="10" y="202" w="120" h="11"/>
+				<param type="spinner" id="text_margin_left" text="" def="0" x="130" y="200" w="32" h="13" min="0" max="99"/>
+				<param type="label" id="lab_text_margin_left_px" text="px" x="165" y="202" w="25" h="11"/>
+				<param type="spinner" id="text_margin_right" text="" def="0" x="190" y="200" w="32" h="13" min="0" max="99"/>
+				<param type="label" id="lab_text_margin_right_px" text="px" x="225" y="202" w="25" h="11"/>
+
+			</param>
+
+		</param>
+    </page>
+	<page name="Font" w="320" h="220">
+
+		<param type="line" id="LINE_font_1" text="" def="" x="5" y="10" w="310" h="94"/>
+		<param type="line" id="LINE_font_2" text="" def="" x="5" y="26" w="310" h="78"/>
+		<param type="label" id="lab_font" text="Font" x="15" y="14" w="120" h="11"/>
+
+		<param type="select" id="font" text="" def="robotoblack" x="15" y="34" w="113" h="13">
+			<items>
+				<item id="Arial" label="Arial">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="ArialBlack" label="Arial Black">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="ArialNarrow" label="Arial Narrow">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="ComicSansMS" label="Comic Sans MS">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="CourierNew" label="Courier New">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Georgia" label="Georgia">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Impact" label="Impact">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="LucidaConsole" label="Lucida Console">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="LucidaSansUnicode" label="Lucida Sans Unicode">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Palatino" label="Palatino">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Tahoma" label="Tahoma">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Times" label="Times New Roman">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="TrebuchetMS" label="Trebuchet MS">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Verdana" label="Verdana">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="clear_sans_lightregular" label="WF Clear Sans Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="clear_sans_mediumregular" label="WF Clear Sans Medium">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="clear_sansregular" label="WF Clear Sans Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="clear_sans_thinregular" label="WF Clear Sans Thin">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="droid_sans_monoregular" label="WF Droid Sans Mono">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="droid_sansregular" label="WF Droid Sans Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="droid_serifregular" label="WF Droid Serif Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Fira_Mono" label="WF Fira Mono">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Fira_Sans" label="WF Fira Sans">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="FiraSansLight" label="WF Fira Sans Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="FiraSansMedium" label="WF Fira Sans Medium">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Fregat_Sans" label="WF Fregat Sans">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="Lato_Sans" label="WF Lato Sans">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="LatoSansLight" label="WF Lato Sans Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="nerisblack" label="WF Neris Black">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="nerislight" label="WF Neris Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="nerissemibold" label="WF Neris SemiBold">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="neristhin" label="WF Neris Thin">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="noto_sansregular" label="WF Noto Sans Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="noto_serifregular" label="WF Noto Serif Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="open_sanscondensed_light" label="WF Open Sans Condensed Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="open_sansextrabold" label="WF Open Sans Extra Bold">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="open_sanslight" label="WF Open Sans Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="open_sansregular" label="WF Open Sans Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="open_sanssemibold" label="WF Open Sans SemiBold">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="permiansanstypefaceregular" label="WF Permian Sans Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="permianseriftypefaceregular" label="WF Permian Serif Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="permianslabseriftypefaceRg" label="WF Permian Slab Serif Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="robotoblack" label="WF Roboto Black">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="roboto_condensedregular" label="WF Roboto Condensed">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="roboto_condensedlight" label="WF Roboto Condensed Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="robotolight" label="WF Roboto Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="robotomedium" label="WF Roboto Medium">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="robotoregular" label="WF Roboto Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="robotothin" label="WF Roboto Thin">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="roboto_slablight" label="WF Roboto Slab Light">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="roboto_slabregular" label="WF Roboto Slab Regular">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="roboto_slabthin" label="WF Roboto Slab Thin">
+					<events>
+						<event name="selendok" target="font_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="custom" label="Custom">
+					<events>
+						<event name="selendok" target="font_custom" action="enable"/>
+					</events>
+				</item>
+			</items>
+		</param>
+		<param type="edit" id="font_custom" text="" def="" x="130" y="34" w="175" h="13"/>
+
+		<param type="label" id="lab_font_style" text="Style, size" def="" x="15" y="50" w="115" h="11"/>
+		<param type="select" id="font_style" text="" def="normal" x="130" y="48" w="118" h="13">
+			<items>
+				<item id="normal" label="Normal"/>
+				<item id="bold" label="Bold"/>
+				<item id="italic" label="Italic"/>
+				<item id="bolditalic" label="Bold italic"/>
+			</items>
+		</param>
+		<param type="spinner" id="font_size" text="" def="14" x="250" y="48" w="32" h="13" min="1" max="100"/>
+		<param type="label" id="lab_font_size2" text="px" x="285" y="50" w="25" h="11"/>
+
+		<param type="label" id="lab_text_shadow_strength" text="Shadow" def="" x="15" y="66" w="115" h="11"/>
+		<param type="select" id="text_shadow_strength" text="" def="normal" x="130" y="64" w="118" h="13">
+			<items>
+				<item id="none" label="None">
+					<events>
+						<event name="selendok" target="text_shadow_color" action="disable"/>
+					</events>
+				</item>
+				<item id="extralight" label="Extra light">
+					<events>
+						<event name="selendok" target="text_shadow_color" action="enable"/>
+					</events>
+				</item>
+				<item id="light" label="Light">
+					<events>
+						<event name="selendok" target="text_shadow_color" action="enable"/>
+					</events>
+				</item>
+				<item id="normal" label="Normal">
+					<events>
+						<event name="selendok" target="text_shadow_color" action="enable"/>
+					</events>
+				</item>
+				<item id="dark" label="Intense">
+					<events>
+						<event name="selendok" target="text_shadow_color" action="enable"/>
+					</events>
+				</item>
+				<item id="extradark" label="Very intense">
+					<events>
+						<event name="selendok" target="text_shadow_color" action="enable"/>
+					</events>
+				</item>
+			</items>
+		</param>
+		<param type="color" id="text_shadow_color" text="" def="#FFFFFF" x="250" y="64" w="40" h="13"/>
+
+		<param type="label" id="lab_font_color" text="Color" def="" x="15" y="82" w="115" h="11"/>
+		<param type="color" id="font_color" text="" def="#004080" x="130" y="80" w="40" h="13"/>
+		<param type="color" id="font_color_over" text="" def="#4080C0" x="190" y="80" w="40" h="13"/>
+
+    </page>
+    <page name="Sound" w="320" h="220">
+
+		<param type="line" id="LINE_snd_1" text="" def="" x="5" y="8" w="310" h="48"/>
+		<param type="line" id="LINE_snd_2" text="" def="" x="5" y="24" w="310" h="32"/>
+		<param type="label" id="lab_snd_click" text="Mouse click" def="" x="15" y="12" w="120" h="11"/>
+		<param type="select" id="sound_click" text="" def="none" x="15" y="34" w="113" h="13">
+			<items>
+				<item id="none" label="No sound">
+					<events>
+						<event name="selendok" target="sound_click_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="click1" label="Standard 1">
+					<events>
+						<event name="selendok" target="sound_click_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="click2" label="Standard 2">
+					<events>
+						<event name="selendok" target="sound_click_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="click3" label="Standard 3">
+					<events>
+						<event name="selendok" target="sound_click_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="click4" label="Standard 4">
+					<events>
+						<event name="selendok" target="sound_click_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="custom" label="Custom">
+					<events>
+						<event name="selendok" target="sound_click_file_custom" action="enable"/>
+					</events>
+				</item>
+			</items>
+		</param>
+		<param type="file" id="sound_click_file_custom" text="" def="" x="130" y="34" w="158" h="13" ext="Sound files(*.mp3;*.ogg;*.oga;*.webm;*.wav;*.swf)|*.mp3;*.ogg;*.oga;*.webm;*.wav;*.swf|MP3 (*.mp3)|*.mp3|OGG (*.oga;*.ogg)|*.ogg;*.oga;|WebM (*.webm)|*.webm|WAV (*.wav)|*.wav|All files (*.*)|*.*|||"/>
+
+		<param type="line" id="LINE_snd_3" text="" def="" x="5" y="62" w="310" h="48"/>
+		<param type="line" id="LINE_snd_4" text="" def="" x="5" y="78" w="310" h="32"/>
+		<param type="label" id="lab_snd_over" text="Mouse over" def="" x="15" y="66" w="120" h="11"/>
+		<param type="select" id="sound_over" text="" def="none" x="15" y="88" w="113" h="13">
+			<items>
+				<item id="none" label="No sound">
+					<events>
+						<event name="selendok" target="sound_over_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="over1" label="Standard 1">
+					<events>
+						<event name="selendok" target="sound_over_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="over2" label="Standard 2">
+					<events>
+						<event name="selendok" target="sound_over_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="over3" label="Standard 3">
+					<events>
+						<event name="selendok" target="sound_over_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="over4" label="Standard 4">
+					<events>
+						<event name="selendok" target="sound_over_file_custom" action="disable"/>
+					</events>
+				</item>
+				<item id="custom" label="Custom">
+					<events>
+						<event name="selendok" target="sound_over_file_custom" action="enable"/>
+					</events>
+				</item>
+			</items>
+		</param>
+		<param type="file" id="sound_over_file_custom" text="" def="" x="130" y="88" w="158" h="13" ext="Sound files(*.mp3;*.ogg;*.oga;*.webm;*.wav;*.swf)|*.mp3;*.ogg;*.oga;*.webm;*.wav;*.swf|MP3 (*.mp3)|*.mp3|OGG (*.oga;*.ogg)|*.ogg;*.oga;|WebM (*.webm)|*.webm|WAV (*.wav)|*.wav|All files (*.*)|*.*|||"/>
+    </page>
+    <methods>
+        <method name="Constructor" label="_Constructor" access="private">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function Constructor(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv= $(oCurObj.div);
+				var sRole = oCurObj.jxParams.children("role").text();
+				var sTarget = (sRole.indexOf("slide")==-1) ? "frame" : "slide";
+				var sDir = "";
+				var sId;
+				if(sRole=="closemodule")
+				{
+					oCurObj.data =
+					{
+						sRole: "close",
+						sState: "enabled",
+						sSoundClick: oCurObj.jxParams.children("sound_click").text(),
+						sSoundOver: oCurObj.jxParams.children("sound_over").text()
+					};
+					if(oCurObj.data.sSoundClick=="custom")
+					{
+						oCurObj.data.sSoundClickFile = oCurObj.jxParams.children("sound_click_file_custom").text();
+					}
+					if(oCurObj.data.sSoundOver=="custom")
+					{
+						oCurObj.data.sSoundOverFile = oCurObj.jxParams.children("sound_over_file_custom").text();
+					}
+				}
+				else
+				{
+					var bSwipe = false;
+					if(sRole.indexOf("next")!=-1)
+					{
+						sDir = "next";
+						bSwipe = (oCurObj.jxParams.children("swipe").text()=="yes");
+					}
+					else if(sRole.indexOf("prev")!=-1)
+					{
+						sDir = "prev";
+						bSwipe = (oCurObj.jxParams.children("swipe").text()=="yes");
+					}
+					else if(sRole.indexOf("first")!=-1)
+					{
+						sDir = "first";
+					}
+					else if(sRole.indexOf("last")!=-1)
+					{
+						sDir = "last";
+					}
+					else if(sRole=="thisslide")
+					{
+						sDir = "this";
+					}
+					else
+					{
+						sId = oCurObj.jxParams.children((sRole=="selectedslide") ? "selectedslide" : "selectedframe").text();
+					}
+					oCurObj.data =
+					{
+						sRole: sRole,
+						sTarget: sTarget,
+						sDir: sDir,
+						sId: sId,
+						sFrameId: "",
+						sSlideId: "",
+						sState: "enabled",
+						bNaviStrict: (oCurObj.jxParams.children("nav_lock").text()=="yes"),
+						bNaviLockedByAction: false,
+						sSoundClick: oCurObj.jxParams.children("sound_click").text(),
+						sSoundOver: oCurObj.jxParams.children("sound_over").text()
+					};
+					jCurObjDiv.addClass("cl-nav-action-" + oCurObj.data.sRole);
+					if(oCurObj.data.sSoundClick=="custom")
+					{
+						oCurObj.data.sSoundClickFile = oCurObj.jxParams.children("sound_click_file_custom").text();
+					}
+					if(oCurObj.data.sSoundOver=="custom")
+					{
+						oCurObj.data.sSoundOverFile = oCurObj.jxParams.children("sound_over_file_custom").text();
+					}
+					if(oCurObj.data.sRole=="close")
+					{
+						oCurObj.data.bDisplayConfirm = (oCurObj.jxParams.children("display_closemodule_msg").text()=="yes");
+					}
+					CL.Event.Subscribe({ aList: [ { sId: argobj.pid, sEvtName: "EVENT_FRAME_OPENED" }, { sId: argobj.pid, sEvtName: "EVENT_SLIDE_OPENED" }, { sId: argobj.pid, sEvtName: "EVENT_FRAME_COMPLETE" }, { sId: argobj.pid, sEvtName: "EVENT_SLIDE_COMPLETE" }, { sId: argobj.pid, sEvtName: "EVENT_NAVIGATION" } ] });
+				}
+				if(CL.bTouch)
+				{
+					if(bSwipe)
+					{
+						if(sDir=="next")
+						{
+							$(CL.oBoard).on("swipeleft", function (e) { oCurObj.CallMethod({ sMethod: "UIEvent", oMethodArgs: { evt: e, elem: this } }); e.originalEvent.stopPropagation(); return false; });
+						}
+						else if(sDir=="prev")
+						{
+							$(CL.oBoard).on("swiperight", function (e) { oCurObj.CallMethod({ sMethod: "UIEvent", oMethodArgs: { evt: e, elem: this } }); e.originalEvent.stopPropagation(); return false; });
+						}
+
+					}
+					jCurObjDiv.find(".cl-btn").addClass("cl-idle").on("click", function () { oCurObj.CallMethod({ sMethod: "Click", oMethodArgs: { pid: argobj.pid } }) });
+				}
+				else
+				{
+					jCurObjDiv.find(".cl-btn").addClass("cl-idle").on("mouseover", function () { oCurObj.CallMethod({ sMethod: "SetState", oMethodArgs: { pid: argobj.pid, sState: "over" } }) }).on("mouseout", function () { oCurObj.CallMethod({ sMethod: "SetState", oMethodArgs: { pid: argobj.pid, sState: "out" } }) }).on("click", function () { CLO[argobj.pid].CallMethod({ sMethod: "Click", oMethodArgs: { pid: argobj.pid } }) });
+				}
+				return true;
+			}]]>
+            </body>
+        </method>
+        <method name="HandleEvt" label="_HandleEvt" access="private">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function HandleEvt(argobj)
+			{
+				if(CLO[argobj.pid]==null || CLO[argobj.pid].div==null) return false;
+				var oCurObj = CLO[argobj.pid];
+				if(CLO[argobj.pid].data.sTarget=="slide")
+				{
+					switch(argobj.evt)
+					{
+						case "EVENT_SLIDE_OPENED":
+						{
+							if(oCurObj.data.sSlideId!=CLZ.sCurrentSlideId)
+							{
+								oCurObj.data.sSlideId = CLZ.sCurrentSlideId;
+								oCurObj.data.bNaviLockedByAction = false;
+							}
+							oCurObj.CallMethod({ sMethod: ((oCurObj.data.bNaviStrict || oCurObj.data.bNaviLockedByAction) ? "DisableAccess" : "EnableAccess") });
+							break;
+						}
+						case "EVENT_SLIDE_COMPLETE":
+						{
+							oCurObj.CallMethod({ sMethod: ((oCurObj.data.bNaviLockedByAction) ? "DisableAccess" : "EnableAccess") });
+							break;
+						}
+						case "EVENT_NAVIGATION":
+						{
+							if(argobj.sTargets!=null)
+							{
+								if(argobj.sTargets==oCurObj.data.sDir || (argobj.sTargets=="restart" && oCurObj.data.sDir=="this") || argobj.sTargets=="all" || (argobj.sTargets=="buttons" && (oCurObj.data.sDir=="next" || oCurObj.data.sDir=="prev")) || argobj.sTargets=="allbuttons")
+								{
+									switch(argobj.sAction)
+									{
+										case "off":
+										{
+											oCurObj.data.bNaviLockedByAction = true;
+											oCurObj.CallMethod({ sMethod: "DisableAccess" });
+											break;
+										}
+										case "update":
+										{
+											oCurObj.CallMethod({ sMethod: "Update" });
+											break;
+										}
+										case "on":
+										default:
+										{
+											oCurObj.data.bNaviLockedByAction = false;
+											oCurObj.CallMethod({ sMethod: "EnableAccess" });
+											break;
+										}
+									}
+								}
+							}
+							break;
+						}
+					}
+				}
+				else
+				{
+					switch(argobj.evt)
+					{
+						case "EVENT_FRAME_OPENED":
+						{
+							if(oCurObj.data.sFrameId!=CLZ.sCurrentFrameId)
+							{
+								oCurObj.data.sFrameId = CLZ.sCurrentFrameId;
+								oCurObj.data.bNaviLockedByAction = false;
+							}
+							oCurObj.CallMethod({ sMethod: ((oCurObj.data.bNaviStrict || oCurObj.data.bNaviLockedByAction) ? "DisableAccess" : "EnableAccess") });
+							break;
+						}
+						case "EVENT_FRAME_COMPLETE":
+						{
+							oCurObj.CallMethod({ sMethod: ((oCurObj.data.bNaviLockedByAction) ? "DisableAccess" : "EnableAccess") });
+							break;
+						}
+						case "EVENT_NAVIGATION":
+						{
+							if(argobj.sTargets!=null)
+							{
+								if(argobj.sTargets=="all" || argobj.sTargets=="buttons" || argobj.sTargets=="allbuttons")
+								{
+									switch(argobj.sAction)
+									{
+										case "off":
+										{
+											oCurObj.data.bNaviLockedByAction = true;
+											oCurObj.CallMethod({ sMethod: "DisableAccess" });
+											break;
+										}
+										case "on":
+										default:
+										{
+											oCurObj.data.bNaviLockedByAction = false;
+											oCurObj.CallMethod({ sMethod: "EnableAccess" });
+											break;
+										}
+									}
+								}
+							}
+							break;
+						}
+					}
+				}
+				return true;
+			}]]>
+            </body>
+        </method>
+		<method name="UIEvent" label="_UIEvent" access="private">
+			<params>
+			</params>
+			<body>
+			<![CDATA[function UIEvent(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jCurObjDiv= $(oCurObj.div);
+				if(argobj.evt==null) return false;
+				if(oCurObj.data.sState=="disabled" || $(".cl-modal-mask").is(":visible")) return false;
+				switch(argobj.evt.type)
+				{
+					case "swiperight":
+					case "swipeleft":
+					{
+						oCurObj.CallMethod({ sMethod: "Navigate" });
+						break;
+					}
+				}
+				return true;
+			}]]>
+			</body>
+		</method>
+        <method name="SetState" label="_SetState" access="private">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function SetState(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var jBtn = $(CLO[argobj.pid].div).find(".cl-btn");
+				if(jBtn.hasClass("cl-disabled") && argobj.sState!="enabled") return false;
+				switch(argobj.sState)
+				{
+					case "over":
+					{
+						jBtn.removeClass("cl-idle").addClass("cl-over");
+						CL.Sound.Stop({ sId: argobj.pid, sEvent: "over" });
+						if(oCurObj.data.sSoundOver!="none")
+						{
+							CL.Sound.Play({ sId: argobj.pid, sEvent: "over", sType: oCurObj.data.sSoundOver, sFile: oCurObj.data.sSoundOverFile })
+						}
+						break;
+					}
+					case "out":
+					{
+						jBtn.removeClass("cl-over").addClass("cl-idle");
+						break;
+					}
+					case "disabled":
+					{
+						jBtn.removeClass("cl-idle cl-over").addClass("cl-disabled");
+						CLO[argobj.pid].data.sState = "disabled";
+						break;
+					}
+					case "enabled":
+					{
+						jBtn.removeClass("cl-disabled").addClass("cl-idle");
+						CLO[argobj.pid].data.sState = "enabled";
+						break;
+					}
+				}
+				return true;
+			}]]>
+            </body>
+        </method>
+        <method name="DisableAccess" label="DISABLE" access="public">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function DisableAccess(argobj)
+			{
+				CLO[argobj.pid].CallMethod({ sMethod: "SetState", oMethodArgs: { sState: "disabled" } });
+				return true;
+			}]]>
+            </body>
+        </method>
+        <method name="EnableAccess" label="ENABLE" access="public">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function EnableAccess(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				if(CLO[argobj.pid].data.sRole=="close")
+				{
+					CLO[argobj.pid].CallMethod({ sMethod: "SetState", oMethodArgs: { sState: "enabled" } });
+				}
+				else
+				{
+					var oParams = { sTarget: CLO[argobj.pid].data.sTarget };
+					if(CLO[argobj.pid].data.sDir=="")
+					{
+						oParams.sTargetId = CLO[argobj.pid].data.sId;
+					}
+					else
+					{
+						oParams.sDir = CLO[argobj.pid].data.sDir;
+					}
+					CLO[argobj.pid].CallMethod({ sMethod: "SetState", oMethodArgs: { sState: ( (argobj.override==true || CL.Navigation.Allowed(oParams) || (CL.bAlternativePath && CL.Navigation.Exists(oParams) )) ? "enabled" : "disabled") } });
+				}
+				return true;
+			}]]>
+            </body>
+        </method>
+        <method name="Navigate" label="_Navigate" access="private">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function Navigate(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				var oParams = { sTargetType: oCurObj.data.sTarget, bUserAction: true };
+				if(oCurObj.data.sDir=="")
+				{
+					oParams.sTargetId = oCurObj.data.sId;
+				}
+				else
+				{
+					oParams.sTargetDir = oCurObj.data.sDir;
+				}
+				var sCLXNavi = "";
+				CLS[CLZ.sCurrentSlideId].jxObjects.each(function()
+				{
+					if(this.getAttribute("type")=="clx_navigation")
+					{
+						sCLXNavi = this.getAttribute("id");
+					}
+				});
+				if(sCLXNavi!="")
+				{
+					if((oCurObj.data.sDir=="next" && CLO[sCLXNavi].data.bCustomNext) || (oCurObj.data.sDir=="prev" && CLO[sCLXNavi].data.bCustomPrev))
+					{
+						return CLO[sCLXNavi].CallMethod({ sMethod: "ProcessNavigation", oMethodArgs: { sDir: oCurObj.data.sDir } });
+					}
+				}
+				if(argobj.override==true || CL.Navigation.Allowed(oParams))
+				{
+					oCurObj.CallMethod({ sMethod: "SetState", oMethodArgs: { sState: "disabled" } });
+					CL.Navigation.GoTo(oParams);
+				}
+				CL.Sound.Stop({ sId: argobj.pid, sEvent: "click" });
+				if(oCurObj.data.sSoundClick!="none")
+				{
+					CL.Sound.Play({ sId: argobj.pid, sEvent: "click", sType: oCurObj.data.sSoundClick, sFile: oCurObj.data.sSoundClickFile })
+				}
+				return true;
+			}]]>
+            </body>
+        </method>
+        <method name="GetProperty" label="_GetProperty" access="private">
+            <params>
+            </params>
+            <body>
+			<![CDATA[function GetProperty(argobj)
+			{
+				return CLO[argobj.pid].GetProperty(argobj);
+			}]]>
+            </body>
+        </method>
+		<method name="Click" label="_Click" access="private">
+			<params>
+			</params>
+			<body>
+			<![CDATA[function Click(argobj)
+			{
+				var oCurObj = CLO[argobj.pid];
+				if(oCurObj.data.sState=="disabled") return false;
+				if(oCurObj.data.sRole=="close")
+				{
+					if(oCurObj.data.bDisplayConfirm)
+					{
+					if(confirm(CLO[argobj.pid].jxParams.children("closemodule_msg").text()))
+						{
+							window.close();
+						}
+					}
+					else
+					{
+						window.close();
+					}
+				}
+				else
+				{
+					CLO[argobj.pid].CallMethod({ sMethod: "Navigate" });
+				}
+				return true;
+			}]]>
+			</body>
+		</method>
+    </methods>
+</params>

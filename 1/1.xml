@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Module file, saved 1/15/2024 10:30:53 AM by Wiratama using CourseLab 200726 -->
+<module format="3.2 200726" rev="2" slideWidth="720" slideHeight="1280" template="" file="D:\KULIAH\SEMESTER 7\UAS\UAS\1\1.xml">
+<font face="robotoregular, Arial, Helvetica, sans-serif" style="1" size="18" color="#000000"/>
+<default_text></default_text>
+<newids slide="SLIDE_" subslide="FRAME_" iebox="TXT_" image="IMG_" object="OBJ_" group="GROUP_"/>
+<import masterid="" left="0" top="0" width="0" height="0" commentsLeft="0" commentsTop="0" commentsWidth="0" commentsHeight="0" importComments="no" commentscolor="#000000" fiximages="yes"/>
+<runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
+<nextidentity slide="26" subslide="0" object="0" group="0" mousepointer="0" actionbox="0"/>
+<moduleColors>
+<color>996600</color>
+<color>cc9900</color>
+<color>ffcc00</color>
+<color>ffff00</color>
+<color>ffff99</color>
+<color>ffdb9d</color>
+<color>ffcc66</color>
+<color>ff9933</color>
+<color>ff794b</color>
+<color>ff3300</color>
+<color>990000</color>
+<color>333366</color>
+<color>003399</color>
+<color>0066cc</color>
+<color>0083d7</color>
+<color>0099ff</color>
+<color>3e9ade</color>
+<color>99ccff</color>
+<color>b4e2ff</color>
+<color>deffff</color>
+<color>ffccff</color>
+<color>ccccff</color>
+<color>9999ff</color>
+<color>6666cc</color>
+<color>9999cc</color>
+<color>666699</color>
+<color>006600</color>
+<color>009900</color>
+<color>66cc33</color>
+<color>99ff66</color>
+<color>ccffcc</color>
+</moduleColors>
+<slides>
+<slide guid="b8246390_e345_4943_a988_f092bdc4ef04" id="SLIDE_7" expanded="yes" sid="2" splash="1">
+<subslides>
+<subslide guid="76468a4d_322b_4d4b_8c85_272f3936ba11" id="FRAME_9" expanded="yes" dur="0">
+<objects>
+<object type="image" guid="eba1f5cc_fb0c_4073_a97f_d33fdbbfebf7" id="IMG_6" expanded="yes" left="-1" top="-1" width="720" height="1280" display="frame" begin="0">
+<src>images\cover buku tamyiz_20240108.png</src>
+</object>
+<object type="div" guid="8b046969_32a0_4a24_abbe_72fccee5d77e" id="EM3_TTL_BTN" expanded="yes" state_extension="false" left="297" top="898" width="200" height="50" display="frame" begin="0">
+<template>splash_button_go</template>
+<design_content><![CDATA[<style >
+		.cl-btn { position: relative; left: 0; top: 0; box-sizing: border-box; width: 200px; height: 50px; }
+		.cl-btn-html { border-style: solid; border-width: 1px; border-color: #004080; -webkit-border-radius: 5px; border-radius: 5px;-webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66); }
+		.idle { border-color: #004080; background-color: #0080C0;background-image: -webkit-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: linear-gradient(0deg, #0080C0 0%, #A6E1FF 100%); }
+		.cl-btn-bg { position: relative; padding: 0; margin: 0; width: 198px; height: 48px;  }
+		.cl-btn-table { border-spacing: 0; width: 198px; height: 48px; }
+		.cl-btn-table td { text-align: center; vertical-align: middle; padding: 0; text-shadow: 1px 1px 2px rgba(255,255,255,0.66); }
+		.cl-btn-table .cl-btn-table-content { width: 198px; height: 48px; font-family: robotomedium, Arial, Helvetica, sans-serif; font-size: 18px; color: #004080;  }
+	</style><div style="position: absolute; width: 200px; height: 50px;" ><div class="cl-btn cl-btn-html idle"><div class="cl-btn-bg"><table class="cl-btn-table"><tr><td class="cl-btn-table-content">START</td></tr></table></div></div></div>]]></design_content>
+<export_content><![CDATA[<div style="position: absolute; width: 200px; height: 50px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;" title="START" ><div id="EM3_TTL_BTN_BTN" style="cursor: pointer; position: relative; left: 0; top: 0; box-sizing: border-box; width: 200px; height: 50px; border-style: solid; border-width: 1px; border-color: #004080; -o-border-radius: 5px; -ms-border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;-o-box-shadow: 2px 2px 6px rgba(102,102,102,0.66);-ms-box-shadow: 2px 2px 6px rgba(102,102,102,0.66);-moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);border-color: #004080; background-color: #0080C0;background-image: -o-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: -ms-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: -moz-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: -webkit-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: linear-gradient(0deg, #0080C0 0%, #A6E1FF 100%);" onmouseover="this.setAttribute('style', this.getAttribute('data-style-over'));" onmouseout="this.setAttribute('style', this.getAttribute('data-style-idle'));" onclick="CL.Start(); return false;" data-style-idle="cursor: pointer; position: relative; left: 0; top: 0; box-sizing: border-box; width: 200px; height: 50px; border-style: solid; border-width: 1px; border-color: #004080; -o-border-radius: 5px; -ms-border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;-o-box-shadow: 2px 2px 6px rgba(102,102,102,0.66);-ms-box-shadow: 2px 2px 6px rgba(102,102,102,0.66);-moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);border-color: #004080; background-color: #0080C0;background-image: -o-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: -ms-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: -moz-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: -webkit-linear-gradient(90deg, #0080C0 0%, #A6E1FF 100%); background-image: linear-gradient(0deg, #0080C0 0%, #A6E1FF 100%);" data-style-over="cursor: pointer; position: relative; left: 0; top: 0; box-sizing: border-box; width: 200px; height: 50px; border-style: solid; border-width: 1px; border-color: #004080; -o-border-radius: 5px; -ms-border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;-o-box-shadow: 2px 2px 6px rgba(102,102,102,0.66);-ms-box-shadow: 2px 2px 6px rgba(102,102,102,0.66);-moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);border-color: #004080; background-color: #0080C0;background-image: -o-linear-gradient(270deg, #0080C0 0%, #A6E1FF 100%); background-image: -ms-linear-gradient(270deg, #0080C0 0%, #A6E1FF 100%); background-image: -moz-linear-gradient(270deg, #0080C0 0%, #A6E1FF 100%); background-image: -webkit-linear-gradient(270deg, #0080C0 0%, #A6E1FF 100%); background-image: linear-gradient(180deg, #0080C0 0%, #A6E1FF 100%);"><div id="EM3_TTL_BTN_BTN_BG" style="position: relative; padding: 0; margin: 0; width: 198px; height: 48px; "><table id="EM3_TTL_BTN_BTN_TABLE" style="border-spacing: 0; width: 198px; height: 48px;"><tr><td id="EM3_TTL_BTN_BTN_TABLE_CONTENT" style="text-align: center; vertical-align: middle; padding: 0; text-shadow: 1px 1px 2px rgba(255,255,255,0.66); width: 198px; height: 48px; font-family: robotomedium, Arial, Helvetica, sans-serif; font-size: 18px; color: #004080; ">START</td></tr></table></div></div></div>]]></export_content>
+<params>
+<btn_text type="edit">START</btn_text>
+<btn_type type="select">html</btn_type>
+<fs_image type="fieldset"></fs_image>
+<n1_img type="file"></n1_img>
+<n2_img type="file"></n2_img>
+<fs_html type="fieldset"></fs_html>
+<content type="select">text</content>
+<fs_bg_img type="fieldset"></fs_bg_img>
+<bg_img_1 type="file"></bg_img_1>
+<bg_img_2 type="file"></bg_img_2>
+<bg_position type="select">center</bg_position>
+<bg_type type="select">auto</bg_type>
+<bg_color type="color">#0080C0</bg_color>
+<gradient_color type="color">#A6E1FF</gradient_color>
+<border_style type="select">solid</border_style>
+<border_color type="color">#004080</border_color>
+<border_width type="spinner">1</border_width>
+<border_radius type="spinner">5</border_radius>
+<fs_text type="fieldset"></fs_text>
+<font type="select">robotomedium</font>
+<font_custom type="edit"></font_custom>
+<font_style type="select">normal</font_style>
+<font_color type="color">#004080</font_color>
+<font_size type="spinner">18</font_size>
+<text_shadow_color type="color">#FFFFFF</text_shadow_color>
+<text_shadow_strength type="select">normal</text_shadow_strength>
+<shadow_strength type="select">normal</shadow_strength>
+<action type="select">go</action>
+<objectid type="objectid"></objectid>
+</params>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="48dc9e99_c635_4e4a_b01f_953b23cb95b8" id="SLIDE_MASTER" expanded="yes" sid="1" master="1">
+<subslides>
+<subslide guid="fb174841_e7ec_48aa_a41e_8be5d012c368" id="FRAME_4" expanded="yes" dur="0">
+<objects>
+<object type="image" guid="fccf5a65_ac07_4020_9281_9d6749428743" id="IMG_7" expanded="yes" left="308" top="811" width="111" height="111" display="frame" begin="0">
+<src>images\radio-microphone-14635.png</src>
+<events>
+<onclick id="IMG_7_1" expanded="yes" type="actions">
+<JAVASCRIPT javascript="micoff();"/>
+<DISPLAY pid="IMG_7" display="none" transition="0" fs_dur="" dur="1000"/>
+<DISPLAY pid="IMG_8" display="inline" transition="0" fs_dur="" dur="1000"/>
+</onclick>
+</events>
+</object>
+<object type="image" guid="5df0181e_88c0_4d2d_86e1_f1938803bc90" id="IMG_8" expanded="yes" left="308" top="811" width="111" height="111" display="frame" begin="0">
+<src>images\microphone-sound-off-14636.png</src>
+<events>
+<onclick id="IMG_8_1" expanded="yes" type="actions">
+<JAVASCRIPT javascript="micon();"/>
+<DISPLAY pid="IMG_7" display="inline" transition="0" fs_dur="" dur="1000"/>
+<DISPLAY pid="IMG_8" display="none" transition="0" fs_dur="" dur="1000"/>
+</onclick>
+</events>
+</object>
+<object type="div" guid="391c551a_b617_42d9_a040_dc2108e16808" id="OBJ_3" expanded="yes" left="80" top="498" width="559" height="240" display="frame" begin="0">
+<default_text>text_main</default_text>
+<default_color_bg>bg_color</default_color_bg>
+<default_color_border>border_color</default_color_border>
+<theme>theme</theme>
+<template>basic_textbox</template>
+<design_content><![CDATA[<div class="clo-basic_textbox cl-container cl-theme-light" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div>]]></design_content>
+<export_content><![CDATA[<div class="cl-container cl-theme-light unselectable" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div>]]></export_content>
+<params>
+<hidden.text_area_warning type="edit">Text area is too small</hidden.text_area_warning>
+<text_main type="textedit">&lt;ietext&gt;&lt;text&gt;&amp;lt;span style=&amp;quot;font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;&amp;quot;&amp;gt;Default text&amp;lt;/span&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</text_main>
+<theme type="select">light</theme>
+<bg_color type="color">#B9DCFF</bg_color>
+<border_color type="color">#336699</border_color>
+<fs_profile_text type="fieldset"></fs_profile_text>
+<stroke_weight type="spinner">1</stroke_weight>
+<border_radius type="spinner">10</border_radius>
+<gradient_angle type="spinner">0</gradient_angle>
+<border_style type="select">solid</border_style>
+<fs_profile_custom type="fieldset"></fs_profile_custom>
+<gradient_color type="color">#CEE0FF</gradient_color>
+<hide_on_click type="check">no</hide_on_click>
+<close_title type="edit">Click to close</close_title>
+<size_to type="select">container</size_to>
+<valign type="select">top</valign>
+<overflow type="select">auto</overflow>
+<shadow_strength type="select">normal</shadow_strength>
+<text_padding type="spinner">10</text_padding>
+<typewriter type="check">no</typewriter>
+<typewriter_speed type="spinner">5</typewriter_speed>
+</params>
+</object>
+<object type="image" guid="8b876e34_bd3f_4455_ba53_acd01170cf9a" id="IMG_9" expanded="yes" left="0" top="186" width="717" height="180" display="frame" begin="0">
+<src>images\a82951a1270b54cfc8afe62433f87117.jpg</src>
+</object>
+<object type="image" guid="6fcba09e_34c1_4492_b2ee_482904493c3a" id="IMG_25" expanded="yes" left="528" top="1014" width="104" height="123" display="frame" begin="0">
+<src>images\yyy - Copy.jpg</src>
+<events>
+<onclick id="IMG_25_1" expanded="yes" type="actions">
+<GOTO option="3" fs_frame="" pid=""/>
+</onclick>
+</events>
+</object>
+</objects>
+</subslide>
+<subslide guid="40c8d467_c1bb_407a_bb14_1d942964af5e" id="FRAME_6" expanded="yes" dur="0">
+</subslide>
+</subslides>
+</slide>
+<slide guid="b2834e58_9552_4ee8_aa5e_9943f8c921a2" id="SLIDE_4" expanded="yes" sid="1" master="1">
+<subslides>
+<subslide guid="271e6252_c672_4af6_bef4_6aa8cc055a98" id="FRAME_7" expanded="yes" dur="0">
+<objects>
+<object type="image" guid="dac5e515_1df0_42f0_95bf_3c7b9caf205f" id="IMG_12" expanded="yes" left="308" top="811" width="111" height="111" display="frame" begin="0">
+<src>images\radio-microphone-14635.png</src>
+<events>
+<onclick id="IMG_12_1" expanded="yes" type="actions">
+<JAVASCRIPT javascript="micoff();"/>
+<DISPLAY pid="IMG_12" display="none" transition="0" fs_dur="" dur="1000"/>
+<DISPLAY pid="IMG_13" display="inline" transition="0" fs_dur="" dur="1000"/>
+</onclick>
+</events>
+</object>
+<object type="image" guid="4fbbeca7_a822_4e84_a667_c40ee889e30c" id="IMG_13" expanded="yes" left="308" top="811" width="111" height="111" display="frame" begin="0">
+<src>images\microphone-sound-off-14636.png</src>
+<events>
+<onclick id="IMG_13_1" expanded="yes" type="actions">
+<JAVASCRIPT javascript="micon();"/>
+<DISPLAY pid="IMG_12" display="inline" transition="0" fs_dur="" dur="1000"/>
+<DISPLAY pid="IMG_13" display="none" transition="0" fs_dur="" dur="1000"/>
+</onclick>
+</events>
+</object>
+<object type="div" guid="b85411d4_6419_4a13_b8e7_e4202264d195" id="OBJ_4" expanded="yes" left="80" top="498" width="559" height="240" display="frame" begin="0">
+<default_text>text_main</default_text>
+<default_color_bg>bg_color</default_color_bg>
+<default_color_border>border_color</default_color_border>
+<theme>theme</theme>
+<template>basic_textbox</template>
+<design_content><![CDATA[<div class="clo-basic_textbox cl-container cl-theme-light" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div>]]></design_content>
+<export_content><![CDATA[<div class="cl-container cl-theme-light unselectable" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div>]]></export_content>
+<params>
+<hidden.text_area_warning type="edit">Text area is too small</hidden.text_area_warning>
+<text_main type="textedit">&lt;ietext&gt;&lt;text&gt;&amp;lt;span style=&amp;quot;font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;&amp;quot;&amp;gt;Default text&amp;lt;/span&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</text_main>
+<theme type="select">light</theme>
+<bg_color type="color">#B9DCFF</bg_color>
+<border_color type="color">#336699</border_color>
+<fs_profile_text type="fieldset"></fs_profile_text>
+<stroke_weight type="spinner">1</stroke_weight>
+<border_radius type="spinner">10</border_radius>
+<gradient_angle type="spinner">0</gradient_angle>
+<border_style type="select">solid</border_style>
+<fs_profile_custom type="fieldset"></fs_profile_custom>
+<gradient_color type="color">#CEE0FF</gradient_color>
+<hide_on_click type="check">no</hide_on_click>
+<close_title type="edit">Click to close</close_title>
+<size_to type="select">container</size_to>
+<valign type="select">top</valign>
+<overflow type="select">auto</overflow>
+<shadow_strength type="select">normal</shadow_strength>
+<text_padding type="spinner">10</text_padding>
+<typewriter type="check">no</typewriter>
+<typewriter_speed type="spinner">5</typewriter_speed>
+</params>
+</object>
+<object type="image" guid="ca0ba976_82df_4872_8fbd_7c7b428b5df2" id="IMG_22" expanded="yes" left="79" top="161" width="547" height="203" display="frame" begin="0">
+<src>images\Screenshot 2024-01-15 094339.png</src>
+</object>
+<object type="image" guid="d8014054_4d8c_4096_97be_7309810ae5fa" id="IMG_23" expanded="yes" left="557" top="995" width="104" height="123" display="frame" begin="0">
+<src>images\yyy - Copy.jpg</src>
+<events>
+<onclick id="IMG_23_1" expanded="yes" type="actions">
+<GOTO option="3" fs_frame="" pid=""/>
+</onclick>
+</events>
+</object>
+<object type="image" guid="732932bd_ca61_420d_959c_390c1a190bc7" id="IMG_19" expanded="yes" left="87" top="997" width="103" height="113" display="frame" begin="0">
+<src>images\yyy.jpg</src>
+<events>
+<onclick id="IMG_19_1" expanded="yes" type="actions">
+<GOTO option="0" fs_frame="" pid="5"/>
+</onclick>
+</events>
+</object>
+</objects>
+</subslide>
+<subslide guid="56b05090_2298_42c0_a164_6f9238d8b6a9" id="FRAME_8" expanded="yes" dur="0">
+</subslide>
+</subslides>
+</slide>
+<slide guid="47cc2305_85b9_4f76_9221_1aafc35c6e14" id="SLIDE_5" expanded="yes" sid="1" master="1">
+<subslides>
+<subslide guid="49a62a59_c0e7_4ec2_bfce_e2b667fdfda7" id="FRAME_10" expanded="yes" dur="0">
+<objects>
+<object type="image" guid="62f7d5da_8abe_4fe9_8202_2b477d748bed" id="IMG_17" expanded="yes" left="308" top="811" width="111" height="111" display="frame" begin="0">
+<src>images\radio-microphone-14635.png</src>
+<events>
+<onclick id="IMG_17_1" expanded="yes" type="actions">
+<JAVASCRIPT javascript="micoff();"/>
+<DISPLAY pid="IMG_17" display="none" transition="0" fs_dur="" dur="1000"/>
+<DISPLAY pid="IMG_18" display="inline" transition="0" fs_dur="" dur="1000"/>
+</onclick>
+</events>
+</object>
+<object type="image" guid="2959d73c_fb3e_49d9_b644_25edaada1500" id="IMG_18" expanded="yes" left="308" top="811" width="111" height="111" display="frame" begin="0">
+<src>images\microphone-sound-off-14636.png</src>
+<events>
+<onclick id="IMG_18_1" expanded="yes" type="actions">
+<JAVASCRIPT javascript="micon();"/>
+<DISPLAY pid="IMG_17" display="inline" transition="0" fs_dur="" dur="1000"/>
+<DISPLAY pid="IMG_18" display="none" transition="0" fs_dur="" dur="1000"/>
+</onclick>
+</events>
+</object>
+<object type="div" guid="bf8ae384_f0ad_49b2_a359_115bd3002d96" id="OBJ_5" expanded="yes" left="80" top="498" width="559" height="240" display="frame" begin="0">
+<default_text>text_main</default_text>
+<default_color_bg>bg_color</default_color_bg>
+<default_color_border>border_color</default_color_border>
+<theme>theme</theme>
+<template>basic_textbox</template>
+<design_content><![CDATA[<div class="clo-basic_textbox cl-container cl-theme-light" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div>]]></design_content>
+<export_content><![CDATA[<div class="cl-container cl-theme-light unselectable" ><div class="cl-outer-box  unselectable" style="width: 557px; height: 238px; background-color: #B9DCFF; border-color: #336699; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); -webkit-box-shadow: 2px 2px 6px rgba(102,102,102,0.66); box-shadow: 2px 2px 6px rgba(102,102,102,0.66);"><div class="cl-inner-box" style="width: 549px; height: 230px; overflow: hidden; padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;"><div class="cl-txt-container" style="width: 529px; height: 210px; padding: 10px;"><div class="cl-txt-box" style="width: 529px; height: 210px; overflow: auto;"><table class="cl-txt-box-table" style="width: 100%; border-spacing: 0; min-height: 210px;"><tr><td class="cl-txt-box-cell " style="width: 100%; padding: 0; vertical-align: top; min-height: 210px;"><span style="font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;">Default text</span></td></tr></table></div></div></div></div></div>]]></export_content>
+<params>
+<hidden.text_area_warning type="edit">Text area is too small</hidden.text_area_warning>
+<text_main type="textedit">&lt;ietext&gt;&lt;text&gt;&amp;lt;span style=&amp;quot;font-family: robotoregular, Arial, Helvetica, sans-serif;font-size: 18px; color: #000000;&amp;quot;&amp;gt;Default text&amp;lt;/span&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</text_main>
+<theme type="select">light</theme>
+<bg_color type="color">#B9DCFF</bg_color>
+<border_color type="color">#336699</border_color>
+<fs_profile_text type="fieldset"></fs_profile_text>
+<stroke_weight type="spinner">1</stroke_weight>
+<border_radius type="spinner">10</border_radius>
+<gradient_angle type="spinner">0</gradient_angle>
+<border_style type="select">solid</border_style>
+<fs_profile_custom type="fieldset"></fs_profile_custom>
+<gradient_color type="color">#CEE0FF</gradient_color>
+<hide_on_click type="check">no</hide_on_click>
+<close_title type="edit">Click to close</close_title>
+<size_to type="select">container</size_to>
+<valign type="select">top</valign>
+<overflow type="select">auto</overflow>
+<shadow_strength type="select">normal</shadow_strength>
+<text_padding type="spinner">10</text_padding>
+<typewriter type="check">no</typewriter>
+<typewriter_speed type="spinner">5</typewriter_speed>
+</params>
+</object>
+<object type="image" guid="1de28c73_34d3_44b1_857c_9dfc0a2d012b" id="IMG_20" expanded="yes" left="111" top="179" width="467" height="180" display="frame" begin="0">
+<src>images\k.png</src>
+</object>
+<object type="image" guid="3cd723e6_bb9b_45bd_bd1c_db238bf4011d" id="IMG_24" expanded="yes" left="62" top="1009" width="103" height="113" display="frame" begin="0">
+<src>images\yyy.jpg</src>
+<events>
+<onclick id="IMG_24_1" expanded="yes" type="actions">
+<GOTO option="4" fs_frame="" pid=""/>
+</onclick>
+</events>
+</object>
+</objects>
+</subslide>
+<subslide guid="bd5ac9df_7bc9_499a_8b4d_c63989d49de6" id="FRAME_11" expanded="yes" dur="0">
+</subslide>
+</subslides>
+</slide>
+<slide guid="562e28e4_d1af_4026_8ece_9161639a1a0f" id="SLIDE_1" expanded="yes" sid="3" masterid="SLIDE_MASTER" name="Untitled" indent="0" infinite="1" advance="" transition="" durout="">
+<subslides>
+<subslide guid="6c84c368_222b_40d5_a240_1b91a4302232" id="FRAME_5" expanded="yes" dur="0">
+</subslide>
+</subslides>
+</slide>
+<slide guid="f1cf5daf_e0a1_42ae_83e0_5c8cc2d6325c" id="SLIDE_6" expanded="yes" sid="3" masterid="SLIDE_4" name="Untitled" indent="0" infinite="1" advance="" transition="" durout="">
+<subslides>
+<subslide guid="204cd522_6a42_4a17_9286_c7c7ada07c0f" id="FRAME_12" expanded="yes" dur="0">
+</subslide>
+</subslides>
+</slide>
+<slide guid="2c484e60_3ac0_4bbb_a1b5_0b49cbf000e8" id="SLIDE_8" expanded="yes" sid="3" masterid="SLIDE_5" name="Untitled" indent="0" infinite="1" advance="" transition="" durout="">
+<subslides>
+<subslide guid="fdb265ec_ceee_4daa_aa2d_55d809549a34" id="FRAME_13" expanded="yes" dur="0">
+</subslide>
+</subslides>
+</slide>
+</slides>
+<objectives>
+<objective id="total" name="Main module objective" cs="i" ss="u" scoremax="100" scoremin="0" module="yes"/>
+</objectives>
+<runtimechecks>
+<runtimecheck id="MSMP" check="0"/>
+<runtimecheck id="MMFP" check="0"/>
+<runtimecheck id="MMSW" check="0"/>
+<runtimecheck id="APQT" check="0"/>
+</runtimechecks>
+</module>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="CourseLab 3.0">
+<meta name="description" content="CourseLab 3 e-learning content editor">
+<meta name="viewport" content="width=720, height=1280, initial-scale=0.9, user-scalable=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="HandheldFriendly" content="true" />
+<title></title>
+<style type="text/css"></style>
+<link href="../ckeditor/cl-rte-fonts.css" rel="stylesheet" type="text/css"/>
+<link href="../courseimages/courselab.css" rel="stylesheet" type="text/css"/>
+<link href="images/course.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" language="javascript" src="../courseimages/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="../courseimages/jquery-ui.js"></script>
+<script type="text/javascript" language="javascript" src="../courseimages/jquery.addons.js"></script>
+<script type="text/javascript" src="../courseimages/cl.js"></script>
+<script type="text/javascript" src="../courseimages/courselab.js"></script>
+<script type="text/javascript" src="../courseimages/lms.js"></script>
+<script type="text/javascript" src="module.js"></script>
+</head>
+<body style="width: 100%; height: 100%; margin: 0;" onload="CL.Init();" onunload="CL.Shutdown();" oncontextmenu="return false;">
+<div class="cl-container" style="width: 720px; height: 1280px; margin: -640px 0 0 -360px;">
+<div id="boardFrame" class="cl-board-frame"></div>
+<div class="cl-error-frame">
+<div class="cl-error-browser">
+<span class="cl-error-browser-string">Your browser is</span> <span class="cl-error-browser-type"></span><br/>
+<span class="cl-error-browser-text">Content cannot be played in this browser. Please use another modern browser.</span>
+</div>
+</div>
+<div id="boardMask" class="cl-modal-mask"><img src="../courseimages/progress.gif"/></div>
+</div>
+<div id="CL_POINTER" class="cl-pointer"><img src="../courseimages/cursor_arrow.png" data-src="../courseimages/cursor_arrow.png" class="cl-pointer-idle"/><img src="../courseimages/cursor_click.png" data-src="../courseimages/cursor_click.png" class="cl-pointer-click"/></div>
+<div class="cl-debug">
+<div class="cl-debug-btns">
+<table class="cl-debug-header-table"><tr>
+<td class="header-cell"><span class="header-main">DEBUGGER</span></td>
+<td class="btn-cell"><button class="cl-debug-btn cl-debug-btn-proceed" data-action="proceed" onclick="CL.Debug.Handle({ oElem: this })">Step</button></td>
+<td class="btn-cell"><button class="cl-debug-btn" data-action="cancel" onclick="CL.Debug.Handle({ oElem: this })">Close</button></td>
+</tr></table>
+</div>
+<div class="cl-debug-body">
+<table class="cl-debug-split"><tr>
+<td class="cl-debug-actions"><div class="cl-debug-action-list"><ul class="cl-debug-list"></ul></div></td>
+<td class="cl-debug-values">
+<div class="cl-debug-section">
+<div class="cl-debug-section-header">
+<table class="cl-debug-header-table"><tr>
+<td class="btn-switch"><div class="cl-debug-switch open" data-action="toggle" data-target="global" onclick="CL.Debug.Handle({ oElem: this })"><span class="cl-debug-open">&#8744;</span><span class="cl-debug-closed">&gt;</span></div></td>
+<td class="header-cell"><span class="header-section">Global variables</span></td>
+</tr></table>
+</div>
+<div class="cl-debug-vars cl-debug-section-body">
+<div class="cl-debug-vars-global">
+<table class="cl-vars-table"><tr>
+<th>Name</th>
+<th>Value</th>
+</tr></table>
+</div>
+</div>
+</div>
+<div class="cl-debug-section">
+<div class="cl-debug-section-header">
+<table class="cl-debug-header-table"><tr>
+<td class="btn-switch"><div class="cl-debug-switch open" data-action="toggle" data-target="slide" onclick="CL.Debug.Handle({ oElem: this })"><span class="cl-debug-open">&#8744;</span><span class="cl-debug-closed">&gt;</span></div></td>
+<td class="header-cell"><span class="header-section">Slide Variables</span></td>
+</tr></table>
+</div>
+<div class="cl-debug-vars cl-debug-section-body">
+<div class="cl-debug-vars-slide">
+<table class="cl-vars-table"><tr>
+<th>Name</th>
+<th>Value</th>
+</tr></table>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="cl-audio-container"><audio id="CLAudio1"></audio><audio id="CLAudio2"></audio><audio id="CLAudio3"></audio><audio id="CLAudio4"></audio><audio id="CLAudio5"></audio></div>
+<div class="cl-lang-strings" style="display: none">
+<div class="cl-lang-disabled-in-preview">This action is intentionally disabled in internal preview mode.</div>
+<div class="cl-lang-external-url-disabled">Opening new window is intentionally blocked in internal preview mode.</div>
+</div>
+</body>
+</html>
